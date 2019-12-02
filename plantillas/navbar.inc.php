@@ -20,22 +20,26 @@
         </div>
 
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark rgba-white-slight py-3">
+    <nav class="navbar navbar-expand-lg py-3">
 
-        <div class="container">
+        <div class="container ">
 
-            <a class="" href="<?php echo SERVIDOR ?>">
+            <a class="logo_d" href="<?php echo SERVIDOR ?>">
                 <img src="<?php echo RUTA_IMG?>/inicio/logo_eyt.png" class="img-fluid wow pulse" />
+            </a>
+
+            <a class="logo_m" href="<?php echo SERVIDOR ?>">
+                <img src="<?php echo RUTA_IMG?>/inicio/logo_m.png" class="img-fluid wow pulse" />
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
                 aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fas fa-bars fa-lg"></i>
 
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
+                    <li class="nav-item  pt-4 pt-md-0">
                         <a class="nav-link font-weight-normal color-navbar mx-4"
                             href="<?php echo SERVIDOR ?>">INICIO</a>
                     </li>

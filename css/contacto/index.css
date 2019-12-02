@@ -43,3 +43,7 @@
   border-radius: 15px;
   border: 2px solid #b70500 !important;
 }
+
+textarea.form-control {
+  resize: none;
+}

@@ -6,8 +6,8 @@ include_once 'plantillas/navbar.inc.php';
 $titulo = 'Rmgol';
 ?>
 
-<section class="wow fadeInUp" data-wow-delay="0.2s">
-    <div class="waves-effect waves-light wow zoomIn" data-wow-delay="0.5s">
+<section class="wow fadeIn" data-wow-delay="0.2s">
+    <div class="waves-effect waves-light z-depth-3">
         <img class="d-block w-100 " src="<?php echo RUTA_IMG?>contacto/ban_contact.png" alt="First slide">
     </div>
 </section>
@@ -95,7 +95,7 @@ $titulo = 'Rmgol';
                             <!-- Message -->
                             <div class="form-group">
                                 <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
-                                    placeholder="Message"></textarea>
+                                    placeholder="MENSAJE"></textarea>
                             </div>
 
 

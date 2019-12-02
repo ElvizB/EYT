@@ -65,7 +65,9 @@
   width: 100%;
   height: 100%;
 }
-
+.logo_m {
+  display: none;
+}
 @media (max-width: 768px) {
   .fondo-ab {
     position: initial !important;
@@ -73,6 +75,13 @@
   }
   .border-footer {
     border: none !important;
+  }
+  .logo_m {
+    display: block;
+  }
+
+  .logo_d {
+    display: none;
   }
 }
 

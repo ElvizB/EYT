@@ -2,7 +2,6 @@
 include_once 'app/config.inc.php';
 include_once 'plantillas/documento-declaracion.inc.php';
 include_once 'plantillas/navbar.inc.php';
-
 $titulo = 'Rmgol';
 ?>
 
@@ -23,9 +22,21 @@ $titulo = 'Rmgol';
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <section class="mt-5">
-                        <h2 class="h1-responsive">TRANSFORMACIÓN Y TUNING
-                        </h2>
+                    <section class="mt-2 mt-md-5">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="text-center text-md-center text-lg-left">
+                                    <span class="h1-responsive">TRANSFORMACIÓN
+                                    </span>
+                                </div>
+
+                                <div class="text-center text-md-center text-lg-right">
+                                    <span class="h1-responsive">Y TUNING
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
                         <hr class="mb-5 line-border">
                         <!--Grid row-->
                         <div class="row">
@@ -428,8 +439,19 @@ $titulo = 'Rmgol';
             </div>
         </div>
         <div class="container pt-5 pb-2">
-            <h2 class="h1-responsive">VENTA DE VEHICULOS MULTIMARCAS USADAS
-            </h2>
+
+            <div class="col-lg-5">
+                <div class="text-center text-md-center text-lg-left">
+                    <span class="h1-responsive">VENTA DE VEHICULOS
+                    </span>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="text-center text-md-center text-lg-right">
+                    <span class="h1-responsive">MULTIMARCAS USADAS
+                    </span>
+                </div>
+            </div>
             <hr class="mb-2 line-border">
         </div>
         <div class="py-5 px-0">
@@ -482,12 +504,26 @@ $titulo = 'Rmgol';
 
                                         <div class="col-lg-8">
                                             <div class="pl-4">
-                                                <h2 class="h5-responsive text-white">TU COMPRA SEGURO, CREAMOS ESTE
-                                                </h2>
-                                                <h2 class="h4-responsive text-white">DEPARTAMENTO PENSANDO
-                                                </h2>
-                                                <h2 class="h4-responsive text-white">EN TU INVERSIÓN
-                                                </h2>
+                                                <div class="col-lg-12">
+                                                    <div
+                                                        class="text-white text-white text-center text-md-center text-lg-left">
+                                                        <span class="h5-responsive">TU COMPRA SEGURO, CREAMOS ESTE
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-8">
+                                                    <div class="text-white text-center text-md-center text-lg-right">
+                                                        <span class="h3-responsive">DEPARTAMENTO PENSANDO
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-9">
+                                                    <div class="text-white text-center text-md-center text-lg-right">
+                                                        <span class="h3-responsive">TEN TU INVERSIÓN
+                                                        </span>
+                                                    </div>
+                                                </div>
                                                 <hr class="mb-4 line-white">
                                             </div>
                                             <div class="row">
@@ -496,7 +532,7 @@ $titulo = 'Rmgol';
                                                         <li class="small mb-3 text-white">
                                                             <span class="fa-li">
                                                                 <img class="img-fluid"
-                                                                    src="http://localhost/eyt/images/servicios/punto.png"
+                                                                    src="<?php echo RUTA_IMG?>servicios/punto.png"
                                                                     alt="Sample image">
                                                             </span>
                                                             <h4 class="mb-0">PASO 1</h4>
@@ -505,7 +541,7 @@ $titulo = 'Rmgol';
                                                         <li class="small mb-3 text-white">
                                                             <span class="fa-li">
                                                                 <img class="img-fluid"
-                                                                    src="http://localhost/eyt/images/servicios/punto.png"
+                                                                    src="<?php echo RUTA_IMG?>servicios/punto.png"
                                                                     alt="Sample image">
                                                             </span>
                                                             <h4 class="mb-0">PASO 2</h4>
@@ -514,7 +550,7 @@ $titulo = 'Rmgol';
                                                         <li class="small mb-4 text-white">
                                                             <span class="fa-li">
                                                                 <img class="img-fluid"
-                                                                    src="http://localhost/eyt/images/servicios/punto.png"
+                                                                    src="<?php echo RUTA_IMG?>servicios/punto.png"
                                                                     alt="Sample image">
                                                             </span>
                                                             <h4 class="mb-0">PASO 3</h4>
@@ -528,7 +564,7 @@ $titulo = 'Rmgol';
                                                         <li class="small mb-3 text-white">
                                                             <span class="fa-li">
                                                                 <img class="img-fluid"
-                                                                    src="http://localhost/eyt/images/servicios/punto.png"
+                                                                    src="<?php echo RUTA_IMG?>servicios/punto.png"
                                                                     alt="Sample image">
                                                             </span>
                                                             <h4 class="mb-0">PASO 4</h4>
@@ -537,7 +573,7 @@ $titulo = 'Rmgol';
                                                         <li class="small mb-3 text-white">
                                                             <span class="fa-li">
                                                                 <img class="img-fluid"
-                                                                    src="http://localhost/eyt/images/servicios/punto.png"
+                                                                    src="<?php echo RUTA_IMG?>servicios/punto.png"
                                                                     alt="Sample image">
                                                             </span>
                                                             <h4 class="mb-0">PASO 5</h4>
@@ -546,7 +582,7 @@ $titulo = 'Rmgol';
                                                         <li class="small mb-4 text-white">
                                                             <span class="fa-li">
                                                                 <img class="img-fluid"
-                                                                    src="http://localhost/eyt/images/servicios/punto.png"
+                                                                    src="<?php echo RUTA_IMG?>servicios/punto.png"
                                                                     alt="Sample image">
                                                             </span>
                                                             <h4 class="mb-0">PASO 3</h4>
