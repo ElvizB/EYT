@@ -1,0 +1,45 @@
+.custom-control-label::before {
+  left: 11.6rem;
+  top: 0.15rem;
+}
+.custom-control-label::after {
+  left: 11.6rem;
+  top: 0.15rem;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #b70500;
+  background-color: #b70500;
+}
+
+.fondo-contact {
+  background: #b70500 !important;
+}
+
+.btn-contact {
+  background: #b70500;
+  transition: all 0.3s ease-in;
+  color: white;
+  border: 2px solid #b70500 !important;
+}
+
+.btn-contact:hover {
+  background: transparent !important;
+  color: #b70500 !important;
+  border: 2px solid #b70500 !important;
+}
+
+.btn-send {
+  background: #b70500;
+  transition: all 0.3s ease-in;
+  border-radius: 15px;
+  color: white;
+  border: 2px solid #b70500 !important;
+}
+
+.btn-send:hover {
+  background: transparent !important;
+  color: #b70500 !important;
+  border-radius: 15px;
+  border: 2px solid #b70500 !important;
+}

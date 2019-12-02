@@ -1,0 +1,183 @@
+.green-text {
+  color: #00c851;
+}
+.modal-wrap {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mensaje-modal-content {
+  border: 0;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  outline: 0;
+}
+.mensaje-modal-header {
+  display: flex;
+  background-color: #00c851;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  align-items: flex-start;
+}
+.heading {
+  margin: 0;
+  font-size: 1.15rem;
+  color: #fff;
+}
+
+.mensaje-modal-body {
+  padding: 1rem;
+  color: #616161;
+}
+
+.bg-alerta {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: white;
+  background-color: #ff3547;
+  border-color: #ff3547;
+}
+
+.bg-advertencia {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: white;
+  background-color: #f80;
+  border-color: #f80;
+}
+
+.bg-enviando {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: white;
+  background-color: #00c851;
+  border-color: #00c851;
+}
+
+.boton-v2 {
+  background: #010101;
+  transition: all 0.3s ease-in;
+  border-radius: 30px;
+  color: white;
+  border: 2px solid #010101 !important;
+}
+.boton-v2:hover {
+  background: transparent !important;
+  color: #010101 !important;
+  border-radius: 30px;
+  border: 2px solid #010101 !important;
+}
+
+.carousel .carousel-control-next-icon,
+.carousel .carousel-control-prev-icon {
+  width: 40% !important;
+  height: 40% !important;
+}
+/*sombreado activo
+box-shadow: 5px 4px 10px 2px rgba(0, 0, 0, 0.4);
+li.activo {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}*/
+
+.border-radius {
+  border-radius: 10% 0% 10% 0%;
+}
+
+.oculto {
+  overflow: hidden;
+}
+
+#mdb-preloader.loaded {
+  opacity: 0;
+  transition: 0.3s ease-in 1s;
+  display: none;
+}
+#mdb-preloader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  z-index: 9999;
+  height: 100%;
+  width: 100%;
+}
+
+.img-galeria {
+  margin: 0rem;
+}
+
+.dropdown-item:hover {
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+.nav-item a:hover {
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+
+.dropdown-menu {
+  top: 117% !important;
+  border: none;
+}
+.color-navbar {
+  color: #474747 !important;
+}
+.background-home {
+  background: #373737;
+}
+.back-footer {
+  background: #010101;
+}
+
+.inicio {
+  background: url(../../images/inicio/evolucionar.png) no-repeat top;
+  background-size: 100% 100%;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+}
+.color-bene {
+  color: #970f17 !important;
+}
+.color-footer {
+  color: #424242 !important;
+}
+
+.fondo-letras {
+  background: #bd0500;
+  clip-path: polygon(0 0, 100% 0, 92% 100%, 0 100%);
+  padding: 5px 15px 5px 7px;
+}
+
+.border-footer {
+  border-right: 2px solid #838383;
+  border-left: 2px solid #838383;
+}
+
+.fondo-curve {
+  clip-path: polygon(8% 0, 100% 0, 92% 100%, 0 100%);
+  background: #363636 !important;
+  color: white;
+}

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+
+.full-bg-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.banner_uno {
+  background-image: url("../../images/slider/ban.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner_dos {
+  background-image: url("../../images/slider/ban.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.list-style {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.data-title {
+  position: absolute;
+  left: 30%;
+  top: 25%;
+}
+.data-sutitile {
+  position: absolute;
+  left: 41%;
+  bottom: 25%;
+}
+
+.background-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 767px) {
+  .fab-container {
+    display: block;
+  }
+  .sec1 {
+    padding-bottom: 5em;
+  }
+  .icon-bar {
+    display: none;
+  }
+  .model-2 {
+    display: block;
+  }
+  .ball {
+    width: 15%;
+  }
+  .data-title {
+    font-size: 2rem !important;
+    position: initial;
+  }
+  .data-sutitile {
+    font-size: 1rem !important;
+    position: initial;
+  }
+  .slider-title > a {
+  }
+  .slider-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .season {
+    font-size: 2rem;
+  }
+  .navbar-nav .dropdown-menu {
+    position: static !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .data-title {
+    font-size: 4rem !important;
+    position: initial;
+  }
+  .data-sutitile {
+    font-size: 1rem !important;
+    position: initial;
+  }
+  .slider-title > a {
+  }
+  .slider-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-nav .dropdown-menu {
+    border: 0px solid rgba(0, 0, 0, 0.15);
+    position: static !important;
+  }
+  .sec1 {
+    height: 110vh;
+  }
+}

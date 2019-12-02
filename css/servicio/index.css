@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Sofia Regular";
+  src: url("../../fonts/SofiaProRegular.ttf");
+}
+
+@font-face {
+  font-family: "Avenir ProBold";
+  src: url("../../fonts/AvenirNextLTProBold.otf");
+}
+
+.font-SofiaR {
+  font-family: "Sofia Regular";
+}
+.font-AvenirProLTB {
+  font-family: "Avenir ProBold";
+}
+
+.line-border {
+  background: #ab0706;
+  border-width: initial;
+}
+
+.rounded-2 {
+  border-radius: 1.25rem !important;
+}
+.color-service {
+  color: #ac080f !important;
+}
+.expand {
+  background: #f4f4f4 !important;
+}
+.card.rounded-2.expand:hover {
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22),
+    0 25px 55px 0 rgba(0, 0, 0, 0.21) !important;
+  background: #f8f8f8 !important;
+}
+
+.fondo-venta {
+  background: url(../../images/servicios/fondo_ventas.png) no-repeat top;
+  background-size: 100% 100%;
+}
+.boton-v3 {
+  clip-path: polygon(8% 0, 100% 0, 92% 100%, 0 100%);
+  background: #363636 !important;
+  color: white;
+  transition: all 0.3s ease-in;
+}
+
+.line-white {
+  background: white;
+  border-width: initial;
+}
+
+.boton-ab {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.fondo-ab {
+  position: absolute;
+  top: -2%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .fondo-ab {
+    position: initial !important;
+    padding-bottom: 10% !important;
+  }
+  .border-footer {
+    border: none !important;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+}
