@@ -7,12 +7,28 @@
   font-family: "Avenir ProBold";
   src: url("../../fonts/AvenirNextLTProBold.otf");
 }
+@font-face {
+  font-family: "Avenir Medium";
+  src: url("../../fonts/Avenir-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../../fonts/AvenirNext.ttc");
+}
 
 .font-SofiaR {
   font-family: "Sofia Regular";
 }
 .font-AvenirProLTB {
   font-family: "Avenir ProBold";
+}
+
+.font-AvenirMe {
+  font-family: "Avenir Medium";
+}
+.font-Avenir {
+  font-family: "Avenir Next";
 }
 
 .line-border {

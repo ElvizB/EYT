@@ -3,7 +3,7 @@
         <div class="container">
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="<?php echo RUTA_NOSOTROS ?>">NOSOTROS</a>
+                    <a class="nav-link text-white font-AvenirMe " href="<?php echo RUTA_NOSOTROS ?>">NOSOTROS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#">
@@ -40,23 +40,23 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item  pt-4 pt-md-0">
-                        <a class="nav-link font-weight-normal color-navbar mx-4"
+                        <a class="nav-link font-AvenirMe font-weight-bold color-navbar mx-4"
                             href="<?php echo SERVIDOR ?>">INICIO</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link font-weight-normal color-navbar mx-4"
+                        <a class="nav-link  font-AvenirMe font-weight-bold  color-navbar mx-4"
                             href="<?php echo RUTA_SERVICIOS ?>">SERVICIOS</a>
                     </li>
 
 
                     <li class="nav-item">
-                        <a class="nav-link font-weight-normal color-navbar mx-4"
+                        <a class="nav-link  font-AvenirMe font-weight-bold  color-navbar mx-4"
                             href="<?php echo RUTA_SEMINUEVOS ?>">SEMINUEVO</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link font-weight-normal color-navbar mx-4"
+                        <a class="nav-link  font-AvenirMe font-weight-bold  color-navbar mx-4"
                             href="<?php echo RUTA_CONTACTO ?>">CONTACTO</a>
                     </li>
                 </ul>

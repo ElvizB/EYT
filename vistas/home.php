@@ -13,27 +13,30 @@ $titulo = 'Rmgol';
     <div class="flex-center">
         <ul class="list-style">
             <li>
-                <h2 class="h2-responsive text-reel font-cBol wow fadeInUp pb-5" data-wow-delay="0.2s">TU ELIGES CÓMO
-                    EVOLUCIONAR</h2>
+                <h2 class="h2-responsive wow fadeInUp pb-5 font-AvenirMe font-weight-bold " data-wow-delay="0.2s"><i>TU
+                        ELIGES CÓMO
+                        EVOLUCIONAR</i></h2>
             </li>
             <li>
                 <div class="row pb-5">
                     <div class="col-lg-6">
                         <img src="<?php echo RUTA_IMG?>/inicio/e_1.png" class="img-fluid wow pulse pb-3" />
-                        <h6 class="wow fadeInUp" data-wow-delay="0.2s">VENTA DE
+                        <h6 class="wow fadeInUp font-AvenirMe" data-wow-delay="0.2s">VENTA DE
                             VEHÍCULOS <br />
                             MULTIMARCAS USADOS</h5>
 
                     </div>
                     <div class="col-lg-6">
                         <img src="<?php echo RUTA_IMG?>/inicio/e_2.png" class="img-fluid wow pulse pb-3" />
-                        <h6 class=" wow fadeInUp" data-wow-delay="0.2s">TRANSFORMACIÓN <br /> Y TUNING
+                        <h6 class=" wow fadeInUp font-AvenirMe" data-wow-delay="0.2s">TRANSFORMACIÓN
+                            <br /> Y TUNING
                         </h6>
                     </div>
                 </div>
             </li>
             <li>
-                <a href="<?php echo RUTA_SERVICIOS ?>" class="btn boton-v2 btn-md waves-effect waves-light px-5">VER MÁS
+                <a href="<?php echo RUTA_SERVICIOS ?>"
+                    class="btn boton-v2 btn-md font-AvenirMe waves-effect waves-light px-5">VER MÁS
                     SERVICIOS</a>
             </li>
         </ul>
@@ -50,8 +53,9 @@ $titulo = 'Rmgol';
 
             <!-- Section heading -->
             <div>
-                <h2 class="h1-responsive fondo-curve">
-                    BENEFICIOS</h2>
+                <h2 class="h1-responsive font-AvenirMe">
+                    <i>BENEFICIOS</i>
+                </h2>
             </div>
 
 
@@ -67,7 +71,7 @@ $titulo = 'Rmgol';
                             <img src="<?php echo RUTA_IMG?>/inicio/b_1.png" class="img-fluid">
                         </div>
                         <!--Content-->
-                        <p class="color-bene mt-4">Contamos con taller propio</p>
+                        <p class="color-bene mt-4 font-AvenirMe">Contamos con taller propio</p>
                         <!--Review-->
                     </div>
 
@@ -83,7 +87,8 @@ $titulo = 'Rmgol';
                             <img src="<?php echo RUTA_IMG?>/inicio/b_2.png" class="img-fluid">
                         </div>
                         <!--Content-->
-                        <p class="color-bene mt-4">Somos importaores de partes exclusivas para Toyota Hilux</p>
+                        <p class="color-bene mt-4 font-AvenirMe">Somos importaores de partes exclusivas para Toyota
+                            Hilux</p>
                         <!--Review-->
                     </div>
 
@@ -99,7 +104,7 @@ $titulo = 'Rmgol';
                             <img src="<?php echo RUTA_IMG?>/inicio/b_3.png" class="img-fluid">
                         </div>
                         <!--Content-->
-                        <p class="color-bene mt-4">Ahorra dinero con nuestros vehículos</p>
+                        <p class="color-bene mt-4 font-AvenirMe">Ahorra dinero con nuestros vehículos</p>
                         <!--Review-->
                     </div>
 
@@ -115,7 +120,7 @@ $titulo = 'Rmgol';
                             <img src="<?php echo RUTA_IMG?>/inicio/b_4.png" class="img-fluid">
                         </div>
                         <!--Content-->
-                        <p class="color-bene mt-4">Hacemos el overhaul más completo con mucha pasión</p>
+                        <p class="color-bene mt-4 font-AvenirMe">Hacemos el overhaul más completo con mucha pasión</p>
                         <!--Review-->
                     </div>
 
@@ -131,7 +136,7 @@ $titulo = 'Rmgol';
                             <img src="<?php echo RUTA_IMG?>/inicio/b_5.png" class="img-fluid">
                         </div>
                         <!--Content-->
-                        <p class="color-bene mt-4" key="n_item6">Garantizamos post servicios</p>
+                        <p class="color-bene mt-4 font-AvenirMe" key="n_item6">Garantizamos post servicios</p>
                         <!--Review-->
                     </div>
 
@@ -147,7 +152,7 @@ $titulo = 'Rmgol';
                             <img src="<?php echo RUTA_IMG?>/inicio/b_6.png" class="img-fluid">
                         </div>
                         <!--Content-->
-                        <p class="color-bene mt-4">Contamos con el staff más calificado</p>
+                        <p class="color-bene mt-4 font-AvenirMe">Contamos con el staff más calificado</p>
                         <!--Review-->
                     </div>
 

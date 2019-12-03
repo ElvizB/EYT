@@ -155,9 +155,9 @@ $titulo = 'Rmgol';
                 <div class="col-md-12">
                     <section class="mt-md-5 mt-4 p-0 p-md-5">
                         <hr class="mb-md-5 mb-4 line-border">
-                        <h2 class="h1-responsive text-center">Valores
+                        <h2 class="h1-responsive text-center font-AvenirProLTB">Valores
                         </h2>
-                        <p class="text-center mb-2">
+                        <p class="text-center mb-2 font-AvenirMe">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         </p>
                         <div class="waves-effect waves-light wow zoomIn py-4" data-wow-delay="0.5s">
@@ -171,8 +171,8 @@ $titulo = 'Rmgol';
                                 <div class="text-center">
                                     <img class="img-fluid" src="<?php echo RUTA_IMG?>/nosotros/v_1.png"
                                         alt="First slide"></div>
-                                <h5 class="h5-responsive text-center my-3">Lorem ipsum</h5>
-                                <p class="text-justify small">
+                                <h5 class="h5-responsive text-center my-3 font-AvenirProLTB">Lorem ipsum</h5>
+                                <p class="text-justify small font-AvenirMe">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 </p>
                             </div>
@@ -181,8 +181,8 @@ $titulo = 'Rmgol';
                                 <div class="text-center">
                                     <img class="img-fluid" src="<?php echo RUTA_IMG?>/nosotros/v_2.png"
                                         alt="First slide"></div>
-                                <h5 class="h5-responsive text-center my-3">Lorem ipsum</h5>
-                                <p class="text-justify small">
+                                <h5 class="h5-responsive text-center my-3 font-AvenirProLTB">Lorem ipsum</h5>
+                                <p class="text-justify small font-AvenirMe">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 </p>
                             </div>
@@ -191,8 +191,8 @@ $titulo = 'Rmgol';
                                 <div class="text-center">
                                     <img class="img-fluid" src="<?php echo RUTA_IMG?>/nosotros/v_3.png"
                                         alt="First slide"></div>
-                                <h5 class="h5-responsive text-center my-3">Lorem ipsum</h5>
-                                <p class="text-justify small">
+                                <h5 class="h5-responsive text-center my-3 font-AvenirProLTB">Lorem ipsum</h5>
+                                <p class="text-justify small font-AvenirMe">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 </p>
                             </div>
@@ -201,8 +201,8 @@ $titulo = 'Rmgol';
                                 <div class="text-center">
                                     <img class="img-fluid" src="<?php echo RUTA_IMG?>/nosotros/v_4.png"
                                         alt="First slide"></div>
-                                <h5 class="h5-responsive text-center my-3">Lorem ipsum</h5>
-                                <p class="text-justify small">
+                                <h5 class="h5-responsive text-center my-3 font-AvenirProLTB">Lorem ipsum</h5>
+                                <p class="text-justify small font-AvenirMe">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 </p>
                             </div>
@@ -211,8 +211,8 @@ $titulo = 'Rmgol';
                                 <div class="text-center">
                                     <img class="img-fluid" src="<?php echo RUTA_IMG?>/nosotros/v_5.png"
                                         alt="First slide"></div>
-                                <h5 class="h5-responsive text-center my-3">Lorem ipsum</h5>
-                                <p class="text-justify small">
+                                <h5 class="h5-responsive text-center my-3 font-AvenirProLTB">Lorem ipsum</h5>
+                                <p class="text-justify small font-AvenirMe">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 </p>
                             </div>

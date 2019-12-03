@@ -26,12 +26,12 @@ $titulo = 'Rmgol';
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="text-center text-md-center text-lg-left">
-                                    <span class="h1-responsive">TRANSFORMACIÓN
+                                    <span class="h1-responsive font-AvenirMe"><i>TRANSFORMACIÓN</i>
                                     </span>
                                 </div>
 
                                 <div class="text-center text-md-center text-lg-right">
-                                    <span class="h1-responsive">Y TUNING
+                                    <span class="h1-responsive font-AvenirProLTB"><i>Y TUNING</i>
                                     </span>
                                 </div>
                             </div>
@@ -442,13 +442,13 @@ $titulo = 'Rmgol';
 
             <div class="col-lg-5">
                 <div class="text-center text-md-center text-lg-left">
-                    <span class="h1-responsive">VENTA DE VEHICULOS
+                    <span class="h1-responsive font-AvenirMe"><i>VENTA DE VEHICULOS</i>
                     </span>
                 </div>
             </div>
             <div class="col-lg-7">
                 <div class="text-center text-md-center text-lg-right">
-                    <span class="h1-responsive">MULTIMARCAS USADAS
+                    <span class="h1-responsive font-AvenirProLTB"><i>MULTIMARCAS USADAS</i>
                     </span>
                 </div>
             </div>
@@ -474,13 +474,14 @@ $titulo = 'Rmgol';
                                                                     alt="Sample image">
                                                             </div>
                                                             <div class="pt-3 mx-1 mt-1 pb-0">
-                                                                <h4 class="font-weight-bold mt-1 mb-3 text-center">
+                                                                <h4 class="font-AvenirProLTB mt-1 mb-3 text-center">
                                                                     QUEREMOS
                                                                     QUE TU
                                                                     INVERSIÓN SEA
                                                                     SEGURA
                                                                 </h4>
-                                                                <p class="text-justify pb-5">Y en un vehículo que preste
+                                                                <p class="text-justify pb-5 font-AvenirMe">Y en un
+                                                                    vehículo que preste
                                                                     las
                                                                     garantias
                                                                     mecánicas, solo úbica el vehículo que deseas comprar
@@ -491,7 +492,7 @@ $titulo = 'Rmgol';
                                                                 <div class="boton-ab">
                                                                     <div class="flex-center">
                                                                         <a href=""
-                                                                            class="btn boton-v3 btn-md waves-effect waves-light px-5">CONSULTA
+                                                                            class="btn boton-v3 btn-md waves-effect waves-light px-5 font-AvenirProLTB">CONSULTA
                                                                             AHORA</a>
                                                                     </div>
                                                                 </div>
@@ -507,20 +508,23 @@ $titulo = 'Rmgol';
                                                 <div class="col-lg-12">
                                                     <div
                                                         class="text-white text-white text-center text-md-center text-lg-left">
-                                                        <span class="h5-responsive">TU COMPRA SEGURO, CREAMOS ESTE
+                                                        <span class="h5-responsive font-AvenirMe"><i>TU COMPRA SEGURO,
+                                                                CREAMOS ESTE</i>
                                                         </span>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-8">
                                                     <div class="text-white text-center text-md-center text-lg-right">
-                                                        <span class="h3-responsive">DEPARTAMENTO PENSANDO
+                                                        <span class="h3-responsive font-AvenirProLTB"><i>DEPARTAMENTO
+                                                                PENSANDO</i>
                                                         </span>
                                                     </div>
                                                 </div>
 
                                                 <div class="col-lg-9">
                                                     <div class="text-white text-center text-md-center text-lg-right">
-                                                        <span class="h3-responsive">TEN TU INVERSIÓN
+                                                        <span class="h3-responsive font-AvenirProLTB"><i>TEN TU
+                                                                INVERSIÓN</i>
                                                         </span>
                                                     </div>
                                                 </div>

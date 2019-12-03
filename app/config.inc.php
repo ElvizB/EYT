@@ -2,9 +2,9 @@
 
 //rutas de la web
 //define("SERVIDOR", "https://eyt-prueba.herokuapp.com/");
-//define("SERVIDOR", "http://localhost/eyt");
+define("SERVIDOR", "http://localhost/eyt");
 
-define("SERVIDOR", "https://eyt-prueba.herokuapp.com/");
+//define("SERVIDOR", "https://eyt-prueba.herokuapp.com/");
 define("RUTA_SERVICIOS", SERVIDOR."/servicios");
 define("RUTA_NOSOTROS", SERVIDOR."/nosotros");
 define("RUTA_SEMINUEVOS", SERVIDOR."/seminuevos");
