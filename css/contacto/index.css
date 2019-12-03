@@ -13,7 +13,15 @@
 }
 
 .fondo-contact {
-  background: #b70500 !important;
+  background: #818181;
+  border-radius: 15px;
+  border: 1px solid #818181;
+}
+.fondo-contact:hover {
+  background: transparent;
+  color: #818181 !important;
+  border-radius: 15px;
+  border: 1px solid #818181;
 }
 
 .btn-contact {
@@ -46,4 +54,8 @@
 
 textarea.form-control {
   resize: none;
+}
+
+.color-datos {
+  color: #818181 !important;
 }

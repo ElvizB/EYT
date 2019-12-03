@@ -8,40 +8,51 @@ $titulo = 'Rmgol';
 ?>
 
 
-<div class="inicio">
-    <!-- Featured image -->
-    <div class="flex-center">
-        <ul class="list-style">
-            <li>
-                <h2 class="h2-responsive wow fadeInUp pb-5 font-AvenirMe font-weight-bold " data-wow-delay="0.2s"><i>TU
-                        ELIGES CÓMO
-                        EVOLUCIONAR</i></h2>
-            </li>
-            <li>
-                <div class="row pb-5">
-                    <div class="col-lg-6">
+<section>
+    <div class="inicio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center pb-5">
+                        <span class="h2-responsive font-AvenirProLTB" data-wow-delay="0.2s">
+                            <i>TU ELIGES CÓMO </i>
+                        </span>
+                        <span class="h2-responsive font-AvenirProLTB text-white evolucionar"><i>EVOLUCIONAR</i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 pb-4 pb-md-0"></div>
+                <div class="col-lg-3 col-md-6 pb-4 pb-md-0">
+                    <div class="text-center">
                         <img src="<?php echo RUTA_IMG?>/inicio/e_1.png" class="img-fluid wow pulse pb-3" />
                         <h6 class="wow fadeInUp font-AvenirMe" data-wow-delay="0.2s">VENTA DE
                             VEHÍCULOS <br />
                             MULTIMARCAS USADOS</h5>
-
                     </div>
-                    <div class="col-lg-6">
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center">
                         <img src="<?php echo RUTA_IMG?>/inicio/e_2.png" class="img-fluid wow pulse pb-3" />
                         <h6 class=" wow fadeInUp font-AvenirMe" data-wow-delay="0.2s">TRANSFORMACIÓN
                             <br /> Y TUNING
                         </h6>
                     </div>
                 </div>
-            </li>
-            <li>
-                <a href="<?php echo RUTA_SERVICIOS ?>"
-                    class="btn boton-v2 btn-md font-AvenirMe waves-effect waves-light px-5">VER MÁS
-                    SERVICIOS</a>
-            </li>
-        </ul>
+                <div class="col-lg-3 pb-4 pb-md-0"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center pt-5">
+                        <a href="<?php echo RUTA_SERVICIOS ?>"
+                            class="btn boton-v2 btn-md font-AvenirMe waves-effect waves-light px-5">VER MÁS
+                            SERVICIOS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+</section>
 
 
 <section id="nosotros">
@@ -53,9 +64,9 @@ $titulo = 'Rmgol';
 
             <!-- Section heading -->
             <div>
-                <h2 class="h1-responsive font-AvenirMe">
+                <span class="h2-responsive font-AvenirProLTB evolucionar text-white">
                     <i>BENEFICIOS</i>
-                </h2>
+                </span>
             </div>
 
 

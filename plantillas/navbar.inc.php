@@ -6,7 +6,7 @@
                     <a class="nav-link text-white font-AvenirMe " href="<?php echo RUTA_NOSOTROS ?>">NOSOTROS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">
+                    <a target="_blank" class="nav-link active" href="https://www.facebook.com/EyTPeru/">
                         <img src="<?php echo RUTA_IMG?>/inicio/fb.png" class="img-fluid" />
                     </a>
                 </li>

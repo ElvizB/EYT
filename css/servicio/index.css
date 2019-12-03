@@ -58,8 +58,15 @@
 .boton-v3 {
   clip-path: polygon(8% 0, 100% 0, 92% 100%, 0 100%);
   background: #363636 !important;
+  transition: all 0.3s ease-in;
   color: white;
   transition: all 0.3s ease-in;
+}
+.boton-v3:hover {
+  color: #bd0501;
+  background: white !important;
+  clip-path: none;
+  border: 2px solid #bd0501 !important;
 }
 
 .line-white {
@@ -81,9 +88,20 @@
   width: 100%;
   height: 100%;
 }
+.color-l {
+  color: #ac0501;
+}
+.color-consulta {
+  color: #aa0609;
+}
 .logo_m {
   display: none;
 }
+.font-serv {
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
 @media (max-width: 768px) {
   .fondo-ab {
     position: initial !important;
@@ -98,6 +116,15 @@
 
   .logo_d {
     display: none;
+  }
+  .inicio {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .font-serv {
+    margin-top: 5%;
+    margin-bottom: 4%;
+    text-align: center;
   }
 }
 

@@ -21,7 +21,8 @@ $titulo = 'Rmgol';
                         <hr class="mb-2 line-border">
                         <!-- Section heading -->
                         <div class="wow fadeIn py-3" data-wow-delay="0.4s">
-                            <h1 class="text-left h5-responsive">DATOS PERSONALES</h1>
+                            <h1 class="text-center text-md-left h5-responsive font-AvenirProLTB color-datos">DATOS
+                                PERSONALES</h1>
                         </div>
 
                         <!-- Default form register -->
@@ -101,9 +102,9 @@ $titulo = 'Rmgol';
 
                             <div class="text-center text-md-right">
                                 <!-- Button trigger modal-->
-                                <button type="button" class="btn fondo-contact text-white" data-toggle="modal"
-                                    data-target="#modalCart">Ver
-                                    términos y condiciones</button>
+                                <button type="button" class="btn fondo-contact text-white font-AvenirProLTB"
+                                    data-toggle="modal" data-target="#modalCart">Ver términos y condiciones
+                                </button>
 
                                 <!-- Modal: modalCart -->
                                 <div class="modal fade" id="modalCart" tabindex="-1" role="dialog"
@@ -111,10 +112,11 @@ $titulo = 'Rmgol';
                                     <div class="modal-dialog modal-dialog-scrollable" role="document">
                                         <div class="modal-content">
                                             <!--Header-->
-                                            <div class="modal-header fondo-contact z-depth-1">
-                                                <h4 class="modal-title text-white" id="myModalLabel">Términos y
+                                            <div class="modal-header z-depth-1" style="background: #818181 !important;">
+                                                <h5 class="modal-title text-white font-AvenirProLTB" id="myModalLabel">
+                                                    Términos y
                                                     condiciones
-                                                </h4>
+                                                </h5>
                                                 <!-- <button type="button" class="close" data-dismiss="modal"
                                                     aria-label="Close">
                                                  <span aria-hidden="true" class="text-white">×</span>--->
@@ -251,12 +253,14 @@ $titulo = 'Rmgol';
                             <!-- Newsletter -->
                             <div class="custom-control custom-checkbox text-right mt-2 pr-4">
                                 <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
-                                <label class="custom-control-label small" for="defaultRegisterFormNewsletter">Acepto
+                                <label class="custom-control-label small font-AvenirMe"
+                                    for="defaultRegisterFormNewsletter">Acepto
                                     Términos y condiciones</label>
                             </div>
 
                             <div class="mt-3 text-center text-md-right">
-                                <button id="btnenviar" class="btn btn-send waves-effect waves-light"><i
+                                <button id="btnenviar"
+                                    class="btn btn-send waves-effect waves-light font-AvenirProLTB"><i
                                         class="fas fa-paper-plane pr-2"></i>ENVIAR</button>
                             </div>
 

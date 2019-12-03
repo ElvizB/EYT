@@ -7,10 +7,10 @@
     <meta name="keywords" content="RMGol, futbol">
     <meta name="author" content="Rodrigo Monge García">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link rel="shortcut icon" type="image/x-icon" href="<?php echo RUTA_IMG?>ico.ico">-->
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo RUTA_IMG?>ico.png">
     <?php
     if(!isset($titulo) || empty($titulo)){
-      $titulo ='EYT';
+      $titulo ='Evolution and Transformation Perú';
     }
     echo "<title>$titulo</title>";
     ?>

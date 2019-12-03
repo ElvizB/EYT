@@ -22,15 +22,15 @@ $titulo = 'Rmgol';
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <section class="mt-2 mt-md-5">
+                    <section class="mt-2 mt-md-0 mt-lg-5">
                         <div class="row">
                             <div class="col-lg-4">
-                                <div class="text-center text-md-center text-lg-left">
+                                <div class="text-center text-md-center text-lg-left color-l">
                                     <span class="h1-responsive font-AvenirMe"><i>TRANSFORMACIÓN</i>
                                     </span>
                                 </div>
 
-                                <div class="text-center text-md-center text-lg-right">
+                                <div class="text-center text-md-center text-lg-right color-l">
                                     <span class="h1-responsive font-AvenirProLTB"><i>Y TUNING</i>
                                     </span>
                                 </div>
@@ -56,8 +56,9 @@ $titulo = 'Rmgol';
 
                                             <div class="col-lg-8">
                                                 <h3
-                                                    class="color-service font-AvenirProLTB mb-3 pl-3 h4-responsive pt-2">
-                                                    TRANSFORMER UNO</h3>
+                                                    class="color-service font-AvenirProLTB pl-3 h4-responsive font-serv">
+                                                    TRANSFORMER UNO
+                                                </h3>
                                                 <div class="row">
                                                     <div class="col-lg-6 col-md-6">
                                                         <ul class="fa-ul mb-0 font-SofiaR">
@@ -207,7 +208,7 @@ $titulo = 'Rmgol';
 
                                             <div class="col-lg-8">
                                                 <h3
-                                                    class="color-service font-AvenirProLTB mb-3 pl-3 h4-responsive pt-2">
+                                                    class="color-service font-AvenirProLTB pl-3 h4-responsive font-serv">
                                                     TRANSFORMER DOS</h3>
                                                 <div class="row">
                                                     <div class="col-lg-6 col-md-6">
@@ -302,8 +303,9 @@ $titulo = 'Rmgol';
 
                                             <div class="col-lg-8">
                                                 <h3
-                                                    class="color-service font-AvenirProLTB mb-3 pl-3 h4-responsive pt-2">
-                                                    OPCIONALES</h3>
+                                                    class="color-service font-AvenirProLTB pl-3 h4-responsive font-serv">
+                                                    OPCIONALES
+                                                </h3>
                                                 <div class="row">
                                                     <div class="col-lg-6 col-md-6">
                                                         <ul class="fa-ul mb-0 font-SofiaR">
@@ -397,7 +399,7 @@ $titulo = 'Rmgol';
 
                                             <div class="col-lg-8">
                                                 <h3
-                                                    class="color-service font-AvenirProLTB mb-3 pl-3 h4-responsive pt-2">
+                                                    class="color-service font-AvenirProLTB pl-3 h4-responsive font-serv">
                                                     AUXILIO Y DIAGNÓSTICO MECÁNICO</h3>
                                                 <div class="row">
                                                     <div class="col-lg-6 col-md-6">
@@ -441,23 +443,23 @@ $titulo = 'Rmgol';
         <div class="container pt-5 pb-2">
 
             <div class="col-lg-5">
-                <div class="text-center text-md-center text-lg-left">
+                <div class="text-center text-md-center text-lg-left color-l">
                     <span class="h1-responsive font-AvenirMe"><i>VENTA DE VEHICULOS</i>
                     </span>
                 </div>
             </div>
             <div class="col-lg-7">
-                <div class="text-center text-md-center text-lg-right">
+                <div class="text-center text-md-center text-lg-right color-l">
                     <span class="h1-responsive font-AvenirProLTB"><i>MULTIMARCAS USADAS</i>
                     </span>
                 </div>
             </div>
             <hr class="mb-2 line-border">
         </div>
-        <div class="py-5 px-0">
+        <div class="py-0 py-md-0 py-lg-5 px-0">
             <div class="pb-5">
                 <!--Section: Content-->
-                <section class="my-md-5 fondo-venta">
+                <section class="my-0 my-md-2 my-lg-5 fondo-venta">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
@@ -474,7 +476,8 @@ $titulo = 'Rmgol';
                                                                     alt="Sample image">
                                                             </div>
                                                             <div class="pt-3 mx-1 mt-1 pb-0">
-                                                                <h4 class="font-AvenirProLTB mt-1 mb-3 text-center">
+                                                                <h4
+                                                                    class="font-AvenirProLTB mt-1 mb-3 text-center color-consulta">
                                                                     QUEREMOS
                                                                     QUE TU
                                                                     INVERSIÓN SEA
@@ -491,7 +494,7 @@ $titulo = 'Rmgol';
                                                                 </p>
                                                                 <div class="boton-ab">
                                                                     <div class="flex-center">
-                                                                        <a href=""
+                                                                        <a href="<?php echo RUTA_CONTACTO ?>"
                                                                             class="btn boton-v3 btn-md waves-effect waves-light px-5 font-AvenirProLTB">CONSULTA
                                                                             AHORA</a>
                                                                     </div>

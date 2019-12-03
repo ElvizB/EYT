@@ -32,10 +32,11 @@
             <!-- Grid column -->
             <div class="col-lg-5 col-md-12 mb-md-0 mb-3 border-footer">
 
-                <div class="row px-2 pt-3">
+                <div class="row px-0 px-md-0 px-lg-2 pt-3">
 
                     <div class="col-lg-6 col-md-12">
-                        <span class="text-uppercase h5-responsive fondo-letras ml-3 font-AvenirProLTB">servicios</span>
+                        <span
+                            class="text-uppercase h5-responsive fondo-letras ml-0 ml-md-0 ml-lg-3 font-AvenirProLTB">servicios</span>
 
                         <ul class="fa-ul mb-0 pt-4">
                             <li class="mb-2 font-AvenirMe">
@@ -65,13 +66,11 @@
             <!-- Grid column -->
             <div class="col-lg-3 col-md-12 mb-md-0 mb-3">
 
-                <div class="ml-3 pt-3">
-                    <span class="text-uppercase h5-responsive fondo-letras font-AvenirProLTB">SOBRE
-                        LA
-                        EMPRESA</span>
+                <div class="ml-0 ml-md-0 ml-lg-3 pt-3">
+                    <span class="text-uppercase h5-responsive fondo-letras font-AvenirProLTB">SOBRE LA EMPRESA</span>
                     <p class="pt-4 font-AvenirMe">NOSOTROS</p>
                     <div class="">
-                        <a class="" href="#">
+                        <a class="" href="https://www.facebook.com/EyTPeru/" target="_blank">
                             <img src="<?php echo RUTA_IMG?>/inicio/fb_n.png" class="img-fluid" />
                         </a>
                         <a class="mx-3" href="#">
