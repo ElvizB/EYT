@@ -23,7 +23,7 @@ if($partes_ruta[0] == 'eyt-prueba.herokuapp.com'){
       case 'nosotros':
           $ruta_elegida = 'vistas/Nosotros.php';
           break;
-      case 'seminuevo':
+      case 'seminuevos':
         $ruta_elegida = 'vistas/seminuevo.php';
         break;
       case 'contacto':

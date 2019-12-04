@@ -31,10 +31,8 @@
     <link href="<?php echo RUTA_CSS?>inicio/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>servicio/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>nosotros/index.css" rel="stylesheet">
+    <link href="<?php echo RUTA_CSS?>seminuevo/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>contacto/index.css" rel="stylesheet">
-    <link href="<?php echo RUTA_CSS?>btn-icons/icon.css" rel="stylesheet">
-    <link href="<?php echo RUTA_CSS?>team/card-team.css" rel="stylesheet">
-    <link href="<?php echo RUTA_CSS?>floating-action-button/floating.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>slider/slider.css" rel="stylesheet">
 
 

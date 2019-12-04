@@ -1,0 +1,35 @@
+.list-menu {
+  padding: 0;
+  position: relative;
+  width: 100%;
+  margin: 10px 10px 30px;
+}
+
+.list-menu li {
+  list-style: none;
+  float: left;
+  padding: 10px 20px;
+  color: black;
+  border: 1px solid red;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+.list-menu li:hover,
+.activar {
+  background: red;
+  color: white;
+}
+
+.line-semi {
+  border-right: 1px solid #bd0500;
+}
+
+.reset-semi {
+  padding-right: 0px;
+}
+
+.reset-btn-semi {
+  background: transparent;
+  border: none;
+}

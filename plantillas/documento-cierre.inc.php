@@ -20,22 +20,47 @@
 
 <script type="text/javascript" src="<?php echo RUTA_JS?>loader.js"></script>
 <script type="text/javascript" src="<?php echo RUTA_JS?>app.js"></script>
+<script type="text/javascript" src="<?php echo RUTA_JS?>sombra.js"></script>
 <script type="text/javascript">
-$(document).ready(function() {
-    $('.expand').hover(
-        function() {
-            $(this).animate({
-                marginTop: "-=1%",
-            }, 200);
-        },
-        function() {
-            $(this).animate({
-                marginTop: "0%"
-            }, 200);
-        }
+/*$(document).ready(function() {
+    $(".button-e").click(function() {
+        var value = $(this).attr('id');
 
-    );
-});
+        if (value == 'all') {
+            $(".filter").addClass('hide');
+            setTimeout(function() {
+                $('filter').removeClass('hide');
+            }, 300);
+        } else {
+            $(".filter").addClass('hide');
+            setTimeout(function() {
+                $('.' + value).removeClass('hide');
+            }, 300);
+        }
+        //add active class
+        $("ul .button-e").click(function() {
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+    })
+}) 
+*/
+
+$(document).ready(function() {
+    $(".button-e").click(function() {
+        var value = $(this).attr("data-filter");
+        if (value == "all") {
+            $(".filter").show("1000");
+        } else {
+
+            $(".filter").not("." + value).hide("3000");
+            $(".filter").filter("." + value).show("3000");
+        }
+        //add active class
+        $("ul .button-e").click(function() {
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+    })
+})
 </script>
 <script type="text/javascript">
 new WOW().init();
