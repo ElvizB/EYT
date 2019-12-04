@@ -31,7 +31,7 @@ $titulo = 'Rmgol';
                                 </div>
 
                                 <div class="text-center text-md-center text-lg-right color-l">
-                                    <span class="h1-responsive font-AvenirProLTB"><i>Y TUNING</i>
+                                    <span class="h1-responsive font-AvenirProLTB margin-l"><i>Y TUNING</i>
                                     </span>
                                 </div>
                             </div>
@@ -526,7 +526,7 @@ $titulo = 'Rmgol';
 
                                                 <div class="col-lg-9">
                                                     <div class="text-white text-center text-md-center text-lg-right">
-                                                        <span class="h3-responsive font-AvenirProLTB"><i>TEN TU
+                                                        <span class="h3-responsive font-AvenirProLTB"><i>EN TU
                                                                 INVERSIÓN</i>
                                                         </span>
                                                     </div>

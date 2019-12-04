@@ -74,7 +74,7 @@ $titulo = 'Rmgol';
             <div class="row text-center pt-5">
 
                 <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+                <div class="col-lg-4 col-md-6 col-sm-6 ">
 
                     <div class="testimonial">
                         <!--Avatar-->
@@ -82,7 +82,7 @@ $titulo = 'Rmgol';
                             <img src="<?php echo RUTA_IMG?>/inicio/b_1.png" class="img-fluid">
                         </div>
                         <!--Content-->
-                        <p class="color-bene mt-4 font-AvenirMe">Contamos con taller propio</p>
+                        <p class=" mt-4 font-AvenirMe">Contamos con taller propio</p>
                         <!--Review-->
                     </div>
 
@@ -90,7 +90,7 @@ $titulo = 'Rmgol';
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+                <div class="col-lg-4 col-md-6 col-sm-6 ">
 
                     <div class="testimonial">
                         <!--Avatar-->
@@ -98,7 +98,7 @@ $titulo = 'Rmgol';
                             <img src="<?php echo RUTA_IMG?>/inicio/b_2.png" class="img-fluid">
                         </div>
                         <!--Content-->
-                        <p class="color-bene mt-4 font-AvenirMe">Somos importaores de partes exclusivas para Toyota
+                        <p class="mt-4 font-AvenirMe">Somos importaores de partes exclusivas para Toyota
                             Hilux</p>
                         <!--Review-->
                     </div>
@@ -107,7 +107,7 @@ $titulo = 'Rmgol';
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+                <div class="col-lg-4 col-md-6 col-sm-6 ">
 
                     <div class="testimonial">
                         <!--Avatar-->
@@ -115,7 +115,7 @@ $titulo = 'Rmgol';
                             <img src="<?php echo RUTA_IMG?>/inicio/b_3.png" class="img-fluid">
                         </div>
                         <!--Content-->
-                        <p class="color-bene mt-4 font-AvenirMe">Ahorra dinero con nuestros vehículos</p>
+                        <p class="mt-4 font-AvenirMe">Ahorra dinero con nuestros vehículos</p>
                         <!--Review-->
                     </div>
 
@@ -123,7 +123,7 @@ $titulo = 'Rmgol';
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+                <div class="col-lg-4 col-md-6 col-sm-6 ">
 
                     <div class="testimonial">
                         <!--Avatar-->
@@ -131,7 +131,7 @@ $titulo = 'Rmgol';
                             <img src="<?php echo RUTA_IMG?>/inicio/b_4.png" class="img-fluid">
                         </div>
                         <!--Content-->
-                        <p class="color-bene mt-4 font-AvenirMe">Hacemos el overhaul más completo con mucha pasión</p>
+                        <p class="mt-4 font-AvenirMe">Hacemos el overhaul más completo con mucha pasión</p>
                         <!--Review-->
                     </div>
 
@@ -139,7 +139,7 @@ $titulo = 'Rmgol';
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+                <div class="col-lg-4 col-md-6 col-sm-6 ">
 
                     <div class="testimonial">
                         <!--Avatar-->
@@ -147,7 +147,7 @@ $titulo = 'Rmgol';
                             <img src="<?php echo RUTA_IMG?>/inicio/b_5.png" class="img-fluid">
                         </div>
                         <!--Content-->
-                        <p class="color-bene mt-4 font-AvenirMe" key="n_item6">Garantizamos post servicios</p>
+                        <p class="mt-4 font-AvenirMe" key="n_item6">Garantizamos post servicios</p>
                         <!--Review-->
                     </div>
 
@@ -155,7 +155,7 @@ $titulo = 'Rmgol';
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 col-sm-6">
 
                     <div class="testimonial">
                         <!--Avatar-->
@@ -163,7 +163,7 @@ $titulo = 'Rmgol';
                             <img src="<?php echo RUTA_IMG?>/inicio/b_6.png" class="img-fluid">
                         </div>
                         <!--Content-->
-                        <p class="color-bene mt-4 font-AvenirMe">Contamos con el staff más calificado</p>
+                        <p class="mt-2 font-AvenirMe">Contamos con el staff más calificado</p>
                         <!--Review-->
                     </div>
 

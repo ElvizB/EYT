@@ -58,15 +58,12 @@
 .boton-v3 {
   clip-path: polygon(8% 0, 100% 0, 92% 100%, 0 100%);
   background: #363636 !important;
-  transition: all 0.3s ease-in;
   color: white;
   transition: all 0.3s ease-in;
 }
 .boton-v3:hover {
-  color: #bd0501;
-  background: white !important;
-  clip-path: none;
-  border: 2px solid #bd0501 !important;
+  color: white;
+  background: #bd0500 !important;
 }
 
 .line-white {
@@ -101,6 +98,9 @@
   margin-top: 1%;
   margin-bottom: 3%;
 }
+.margin-l {
+  margin-right: -1.5rem;
+}
 
 @media (max-width: 768px) {
   .fondo-ab {
@@ -126,7 +126,43 @@
     margin-bottom: 4%;
     text-align: center;
   }
+  .historia {
+    margin-top: 0rem !important;
+  }
+  .mision {
+    margin-top: 0rem !important;
+  }
+  .vision {
+    margin-top: 0rem !important;
+  }
+  .img-historia {
+    clip-path: none !important;
+  }
+  .img-mision {
+    clip-path: none !important;
+  }
+  .img-vision {
+    clip-path: none !important;
+  }
+  .section-mision-w {
+    display: none;
+  }
+  .section-mision-m {
+    display: block !important;
+  }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1023px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .historia {
+    margin-top: 0rem !important;
+  }
+  .mision {
+    margin-top: 0rem !important;
+  }
+  .vision {
+    margin-top: 0rem !important;
+  }
+  .margin-l {
+    margin-right: -0.5rem !important;
+  }
 }

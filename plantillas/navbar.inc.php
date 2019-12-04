@@ -39,23 +39,23 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item  pt-4 pt-md-0">
+                    <li class="sombra nav-item  pt-4 pt-md-0">
                         <a class="nav-link font-AvenirMe font-weight-bold color-navbar mx-4"
                             href="<?php echo SERVIDOR ?>">INICIO</a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="sombra nav-item ">
                         <a class="nav-link  font-AvenirMe font-weight-bold  color-navbar mx-4"
                             href="<?php echo RUTA_SERVICIOS ?>">SERVICIOS</a>
                     </li>
 
 
-                    <li class="nav-item">
+                    <li class="sombra nav-item">
                         <a class="nav-link  font-AvenirMe font-weight-bold  color-navbar mx-4"
                             href="<?php echo RUTA_SEMINUEVOS ?>">SEMINUEVO</a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="sombra nav-item">
                         <a class="nav-link  font-AvenirMe font-weight-bold  color-navbar mx-4"
                             href="<?php echo RUTA_CONTACTO ?>">CONTACTO</a>
                     </li>
