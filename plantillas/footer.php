@@ -16,8 +16,10 @@
                                 class="img-fluid" /></div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <span class="h5-responsive fondo-letras font-AvenirProLTB">CONTACTO</span>
-                        <div class="font-AvenirMe">
+                        <div class="text-left text-md-left">
+                            <span class="h5-responsive fondo-letras font-AvenirProLTB">CONTACTO</span>
+                        </div>
+                        <div class="font-AvenirMe text-left text-md-left">
                             <p class="pt-4 mb-0 font-weight-bold">DIRECCIÓN </p>
                             <p class="">PANAMERICANA NORTE KM 26.5 LOTE 49, PUENTE PIEDRA-LIMA</p>
                             <p class="mb-0 font-weight-bold">TELÉFONOS </p>
@@ -30,17 +32,20 @@
             </div> <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-lg-5 col-md-12 mb-md-0 mb-3 border-footer">
+            <div class="col-lg-5 col-md-12 mb-md-0 mb-3 border-footer f-d">
 
                 <div class="row px-0 px-md-0 px-lg-2 pt-3">
 
                     <div class="col-lg-6 col-md-12">
-                        <span
-                            class="text-uppercase h5-responsive fondo-letras ml-0 ml-md-0 ml-lg-3 font-AvenirProLTB">servicios</span>
+                        <div class="text-left text-md-left">
+                            <span
+                                class="text-uppercase h5-responsive fondo-letras ml-0 ml-md-0 ml-lg-3 font-AvenirProLTB">servicios
+                            </span>
 
-                        <ul class="fa-ul mb-0 pt-4">
+                        </div>
+                        <ul class="fa-ul mb-0 pt-4 text-left text-md-left">
                             <li class="mb-2 font-AvenirMe">
-                                <span class="fa-li">
+                                <span class="fa-li ">
                                     <img src="<?php echo RUTA_IMG?>/inicio/flecha.png" class="img-fluid" />
                                 </span>
                                 VENTA DE VEHÍCULOS MULTIMARCAS USADAS
@@ -61,15 +66,48 @@
                 </div>
 
             </div>
+
+            <div class="col-lg-5 col-md-12 mb-md-0 mb-3 border-footer f-m">
+
+                <div class="row px-0 px-md-0 px-lg-2 pt-3">
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="text-left text-md-left">
+                            <span
+                                class="text-uppercase h5-responsive fondo-letras ml-0 ml-md-0 ml-lg-3 font-AvenirProLTB">servicios
+                            </span>
+
+                        </div>
+                        <ul class="fa-ul mb-0 pt-4 text-left text-md-left">
+                            <li class="mb-2 font-AvenirMe">
+                                <span class="fa-li ">
+                                    <img src="<?php echo RUTA_IMG?>/inicio/movil/cuadrado.png" class="img-fluid" />
+                                </span>
+                                VENTA DE VEHÍCULOS MULTIMARCAS USADAS
+                            </li>
+                            <li class="mb-2 font-AvenirMe">
+                                <span class="fa-li">
+                                    <img src="<?php echo RUTA_IMG?>/inicio/movil/cuadrado.png" class="img-fluid" />
+                                </span>
+                                TRANSFORMACIÓN Y TUNING DE TU HILUX
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
             <div class="col-lg-3 col-md-12 mb-md-0 mb-3">
 
                 <div class="ml-0 ml-md-0 ml-lg-3 pt-3">
-                    <span class="text-uppercase h5-responsive fondo-letras font-AvenirProLTB">SOBRE LA EMPRESA</span>
-                    <p class="pt-4 font-AvenirMe">NOSOTROS</p>
-                    <div class="">
+                    <div class="text-left text-md-left">
+                        <span class="text-uppercase h5-responsive fondo-letras font-AvenirProLTB">SOBRE LA
+                            EMPRESA</span>
+                        <p class="pt-4 font-AvenirMe">NOSOTROS</p>
+                    </div>
+                    <div class="text-left text-md-left">
                         <a class="" href="https://www.facebook.com/EyTPeru/" target="_blank">
                             <img src="<?php echo RUTA_IMG?>/inicio/fb_n.png" class="img-fluid" />
                         </a>

@@ -101,6 +101,12 @@
 .margin-l {
   margin-right: -1.5rem;
 }
+.f-m {
+  display: none;
+}
+.slider-m {
+  display: none;
+}
 
 @media (max-width: 768px) {
   .fondo-ab {
@@ -159,6 +165,41 @@
   .fa-ul {
     margin-left: 0em !important;
     padding-left: 2rem;
+  }
+  .color-navbar {
+    color: white !important;
+  }
+  .background-home-m {
+    background: #b70000 !important;
+  }
+  .navbar {
+    padding: 0rem 0rem;
+  }
+  .inicio {
+    background: url(../../images/inicio/movil/evolucionar_m.png) no-repeat top;
+    background-size: 100% 100%;
+  }
+  .f-d {
+    display: none;
+  }
+  .f-m {
+    display: block;
+  }
+  .fa-ul {
+    padding-left: 1rem;
+  }
+  .slider-d {
+    display: none;
+  }
+  .slider-m {
+    display: block;
+  }
+  .center {
+    text-align: center !important;
+  }
+  .reset-v {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 

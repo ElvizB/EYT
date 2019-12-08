@@ -5,12 +5,24 @@ include_once 'plantillas/navbar.inc.php';
 $titulo = 'Rmgol';
 ?>
 
-<div id="carousel-example-1z" class="carousel slide carousel-fade z-depth-3" data-ride="carousel">
+<div id="carousel-example-1z" class="carousel slide carousel-fade z-depth-3 slider-d" data-ride="carousel">
     <!--Slides-->
     <div class="carousel-inner" role="listbox">
         <!--First slide-->
         <div class="waves-effect waves-light" style="cursor: auto;">
             <img class="d-block w-100 " src="<?php echo RUTA_IMG?>servicios/ban_servicio.png" alt="First slide">
+        </div>
+        <!--/First slide-->
+    </div>
+    <!--/.Slides-->
+</div>
+
+<div id="carousel-example-1z" class="carousel slide carousel-fade z-depth-3 slider-m" data-ride="carousel">
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <!--First slide-->
+        <div class="waves-effect waves-light" style="cursor: auto;">
+            <img class="d-block w-100 " src="<?php echo RUTA_IMG?>servicios/movil/ban_servicio_m.png" alt="First slide">
         </div>
         <!--/First slide-->
     </div>

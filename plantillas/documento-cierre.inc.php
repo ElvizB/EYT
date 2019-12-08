@@ -13,6 +13,7 @@
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js">
 </script>
+<script type="text/javascript" src="<?php echo RUTA_JS?>mdb-filter.min.js"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <!-- datatables JS 
 <script type="text/javascript" src="<?php echo RUTA_JS?>datatables/datatables.min.js"></script>
@@ -22,42 +23,18 @@
 <script type="text/javascript" src="<?php echo RUTA_JS?>app.js"></script>
 <script type="text/javascript" src="<?php echo RUTA_JS?>sombra.js"></script>
 <script type="text/javascript">
-/*$(document).ready(function() {
-    $(".button-e").click(function() {
-        var value = $(this).attr('id');
-
-        if (value == 'all') {
-            $(".filter").addClass('hide');
-            setTimeout(function() {
-                $('filter').removeClass('hide');
-            }, 300);
-        } else {
-            $(".filter").addClass('hide');
-            setTimeout(function() {
-                $('.' + value).removeClass('hide');
-            }, 300);
-        }
-        //add active class
-        $("ul .button-e").click(function() {
-            $(this).addClass('active').siblings().removeClass('active');
-        })
-    })
-}) 
-*/
-
 $(document).ready(function() {
     $(".button-e").click(function() {
         var value = $(this).attr("data-filter");
         if (value == "all") {
             $(".filter").show("1000");
         } else {
-
             $(".filter").not("." + value).hide("3000");
             $(".filter").filter("." + value).show("3000");
         }
         //add active class
         $("ul .button-e").click(function() {
-            $(this).addClass('active').siblings().removeClass('active');
+            $(this).addClass('activar').siblings().removeClass('activar');
         })
     })
 })

@@ -13,7 +13,7 @@ $titulo = 'Rmgol';
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="text-center pb-5">
+                    <div class="text-center pb-3 pb-md-5">
                         <span class="h2-responsive font-AvenirProLTB" data-wow-delay="0.2s">
                             <i>TU ELIGES CÓMO </i>
                         </span>
@@ -43,7 +43,7 @@ $titulo = 'Rmgol';
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="text-center pt-5">
+                    <div class="text-center pt-2 pt-md-5">
                         <a href="<?php echo RUTA_SERVICIOS ?>"
                             class="btn boton-v2 btn-md font-AvenirMe waves-effect waves-light px-5">VER MÁS
                             SERVICIOS</a>
@@ -98,7 +98,7 @@ $titulo = 'Rmgol';
                             <img src="<?php echo RUTA_IMG?>/inicio/b_2.png" class="img-fluid">
                         </div>
                         <!--Content-->
-                        <p class="mt-4 font-AvenirMe">Somos importaores de partes exclusivas para Toyota
+                        <p class="mt-4 font-AvenirMe">Somos importadores de partes exclusivas para Toyota
                             Hilux</p>
                         <!--Review-->
                     </div>

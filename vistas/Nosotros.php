@@ -11,7 +11,7 @@ $titulo = 'Rmgol';
     <!--Slides clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 100%);-->
     <div class="carousel-inner" role="listbox">
         <!--First slide-->
-        <div class="waves-effect waves-light" style="cursor: auto;">
+        <div class="waves-effect waves-light slider-d" style="cursor: auto;">
             <img class="d-block w-100 " src="<?php echo RUTA_IMG?>nosotros/banner_about.png" alt="First slide">
         </div>
         <!--/First slide-->
@@ -21,7 +21,7 @@ $titulo = 'Rmgol';
     <!--Slides-->
     <div class="carousel-inner" role="listbox">
         <!--First slide-->
-        <div class="row">
+        <div class="row section-mision-w">
             <!--Grid column-->
             <div class="col-lg-5 col-md-12">
                 <div class="row">
@@ -57,6 +57,49 @@ $titulo = 'Rmgol';
             <!--Grid column-->
         </div>
         <!--/First slide-->
+
+        <!--First slide-->
+        <div class="row section-mision-m">
+            <!--Grid column-->
+            <div class="col-lg-7 col-md-12 reset">
+                <div class="img-historia">
+                    <img class="w-100" src="<?php echo RUTA_IMG?>nosotros/historia.png" alt="Sample image">
+                </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-5 col-md-12">
+                <div class="row">
+                    <div class="col-lg-5 "></div>
+                    <div class="col-lg-7 col-md-12">
+                        <div class="historia p-4 p-md-4 p-lg-0">
+                            <h4
+                                class="font-AvenirProLTB mt-1 mb-1 text-center text-md-center text-lg-right color-about">
+                                Historia
+                            </h4>
+                            <hr class=" mt-0 line-border">
+                            <p class="text-justify font-AvenirMe">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                                Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when
+                                an
+                                unknown printer took a galley of type and scrambled it to make a type
+                                specimen
+                                book.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Grid column-->
+
+        </div>
+        <!--/First slide-->
+
+
     </div>
     <!--/.Slides-->
 
@@ -107,16 +150,24 @@ $titulo = 'Rmgol';
         <div class="row section-mision-m">
 
             <!--Grid column-->
+            <div class="col-lg-7 col-md-12 reset">
+                <div class="img-mision">
+                    <img class="w-100" src="<?php echo RUTA_IMG?>nosotros/mision.png" alt="Sample image">
+                </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
             <div class="col-lg-5 col-md-12 flex-center">
                 <div class="row">
 
                     <div class="col-lg-7">
                         <div class="mision p-4 p-md-4 p-lg-0">
                             <h4
-                                class="font-AvenirProLTB mt-1 mb-3 text-center text-md-center text-lg-right color-about">
-
+                                class="font-AvenirProLTB mt-1 mb-1 text-center text-md-center text-lg-right color-about">
                                 Misión
                             </h4>
+                            <hr class=" mt-0 line-border">
                             <p class="text-justify font-AvenirMe">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting
                                 industry.
@@ -135,14 +186,6 @@ $titulo = 'Rmgol';
             </div>
             <!--Grid column-->
 
-            <!--Grid column-->
-            <div class="col-lg-7 col-md-12 reset">
-                <div class="img-mision">
-                    <img class="w-100" src="<?php echo RUTA_IMG?>nosotros/mision.png" alt="Sample image">
-                </div>
-            </div>
-            <!--Grid column-->
-
         </div>
         <!--/First slide-->
     </div>
@@ -151,7 +194,7 @@ $titulo = 'Rmgol';
     <!--Slides-->
     <div class="carousel-inner" role="listbox">
         <!--First slide-->
-        <div class="row">
+        <div class="row section-mision-w">
             <!--Grid column-->
             <div class="col-lg-5 col-md-12 flex-center">
                 <div class="row">
@@ -189,6 +232,48 @@ $titulo = 'Rmgol';
             <!--Grid column-->
         </div>
         <!--/First slide-->
+
+        <!--First slide-->
+        <div class="row section-mision-m">
+            <!--Grid column-->
+            <div class="col-lg-7 col-md-12 reset">
+                <div class="img-vision">
+                    <img class="w-100" src="<?php echo RUTA_IMG?>nosotros/vision.png" alt="Sample image">
+                </div>
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <div class="col-lg-5 col-md-12 flex-center">
+                <div class="row">
+                    <div class="col-lg-5"></div>
+                    <div class="col-lg-7 col-md-12">
+                        <div class="vision p-4 p-md-4 p-lg-0">
+                            <h4
+                                class="font-AvenirProLTB mt-1 mb-1 text-center text-md-center text-lg-right color-about">
+                                Visión
+                            </h4>
+                            <hr class=" mt-0 line-border">
+
+                            <p class="text-justify font-AvenirMe">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                                Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when
+                                an
+                                unknown printer took a galley of type and scrambled it to make a type
+                                specimen
+                                book.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Grid column-->
+
+
+        </div>
+        <!--/First slide-->
     </div>
     <!--/.Slides-->
 
@@ -196,24 +281,39 @@ $titulo = 'Rmgol';
 
 <main class="pt-0">
     <div class="main-wrapper">
+        <div class="slider-m">
+            <div class="waves-effect waves-light wow zoomIn py-4" data-wow-delay="0.5s">
+                <img class="d-block w-100 " src="<?php echo RUTA_IMG?>/nosotros/movil /valores.png" alt="First slide">
+            </div>
+            <p class="text-justify mb-2 font-AvenirMe p-4 p-md-4 p-lg-0">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
+
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <section class="p-0 p-md-5">
-                        <hr class="mb-md-5 mb-4 line-border">
-                        <h2 class="h1-responsive text-center font-AvenirProLTB color-about">Valores
-                        </h2>
-                        <p class="text-center mb-2 font-AvenirMe">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                        <div class="waves-effect waves-light wow zoomIn py-4" data-wow-delay="0.5s">
-                            <img class="d-block w-100 " src="<?php echo RUTA_IMG?>/nosotros/valores.png"
-                                alt="First slide">
+                        <div class="slider-d">
+                            <hr class="mb-md-5 mb-4 line-border">
+                            <h2 class="h1-responsive text-center font-AvenirProLTB color-about">Valores
+                            </h2>
+                            <p class="text-center mb-2 font-AvenirMe">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <div class="waves-effect waves-light wow zoomIn py-4" data-wow-delay="0.5s">
+                                <img class="d-block w-100 " src="<?php echo RUTA_IMG?>/nosotros/valores.png"
+                                    alt="First slide">
+                            </div>
                         </div>
+
+
+
+
                         <div class="row pt-4">
                             <div class="col-lg-1"></div>
 
-                            <div class="col-lg-2 col-md-6 col-sm-12">
+                            <div class="col-lg-2 col-md-6 col-sm-6 px-4 px-md-4 px-lg-3">
                                 <div class="text-center">
                                     <img class="img-fluid" src="<?php echo RUTA_IMG?>/nosotros/v_1.png"
                                         alt="First slide"></div>
@@ -224,7 +324,7 @@ $titulo = 'Rmgol';
                                 </p>
                             </div>
 
-                            <div class="col-lg-2 col-md-6 col-sm-12">
+                            <div class="col-lg-2 col-md-6 col-sm-6 px-4 px-md-4 px-lg-3">
                                 <div class="text-center">
                                     <img class="img-fluid" src="<?php echo RUTA_IMG?>/nosotros/v_2.png"
                                         alt="First slide"></div>
@@ -235,7 +335,7 @@ $titulo = 'Rmgol';
                                 </p>
                             </div>
 
-                            <div class="col-lg-2 col-md-6 col-sm-12">
+                            <div class="col-lg-2 col-md-6 col-sm-6 px-4 px-md-4 px-lg-3">
                                 <div class="text-center">
                                     <img class="img-fluid" src="<?php echo RUTA_IMG?>/nosotros/v_3.png"
                                         alt="First slide"></div>
@@ -246,7 +346,7 @@ $titulo = 'Rmgol';
                                 </p>
                             </div>
 
-                            <div class="col-lg-2 col-md-6 col-sm-12">
+                            <div class="col-lg-2 col-md-6 col-sm-6 px-4 px-md-4 px-lg-3">
                                 <div class="text-center">
                                     <img class="img-fluid" src="<?php echo RUTA_IMG?>/nosotros/v_4.png"
                                         alt="First slide"></div>
@@ -257,17 +357,18 @@ $titulo = 'Rmgol';
                                 </p>
                             </div>
 
-                            <div class="col-lg-2 col-md-6 col-sm-12">
+                            <div class="col-lg-2 col-md-6 col-sm-6 px-4 px-md-4 px-lg-3">
                                 <div class="text-center">
                                     <img class="img-fluid" src="<?php echo RUTA_IMG?>/nosotros/v_5.png"
                                         alt="First slide"></div>
-                                <h5 class="h5-responsive text-center my-3 font-AvenirProLTB color-about">Lorem ipsum</h5>
+                                <h5 class="h5-responsive text-center my-3 font-AvenirProLTB color-about">Lorem ipsum
+                                </h5>
                                 <p class="text-justify small font-AvenirMe">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 </p>
                             </div>
 
-                            <div class="col-lg-1"></div>
+                            <div class="col-lg-1 pb-4 pb-md-4 pb-lg-0"></div>
                         </div>
 
                     </section>

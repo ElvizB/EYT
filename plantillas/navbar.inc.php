@@ -20,26 +20,28 @@
         </div>
 
     </div>
-    <nav class="navbar navbar-expand-lg py-3">
+    <nav class="navbar navbar-expand-lg">
 
-        <div class="container ">
+        <div class="container">
 
-            <a class="logo_d" href="<?php echo SERVIDOR ?>">
-                <img src="<?php echo RUTA_IMG?>/inicio/logo_eyt.png" class="img-fluid wow pulse" />
-            </a>
+            <div class=" p-4 p-md-4 p-lg-2">
+                <a class="logo_d" href="<?php echo SERVIDOR ?>">
+                    <img src="<?php echo RUTA_IMG?>/inicio/logo_eyt.png" class="img-fluid wow pulse" />
+                </a>
 
-            <a class="logo_m" href="<?php echo SERVIDOR ?>">
-                <img src="<?php echo RUTA_IMG?>/inicio/logo_m.png" class="img-fluid wow pulse" />
-            </a>
+                <a class="logo_m" href="<?php echo SERVIDOR ?>">
+                    <img src="<?php echo RUTA_IMG?>/inicio/movil/logo_m.png" class="img-fluid wow pulse" />
+                </a>
 
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
                 aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars fa-lg"></i>
 
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
-                <ul class="navbar-nav mx-auto">
-                    <li class="sombra nav-item  pt-4 pt-md-0">
+                <ul class="navbar-nav background-home-m mx-auto center p-4 p-md-4 p-lg-0">
+                    <li class="sombra nav-item ">
                         <a class="nav-link font-AvenirMe font-weight-bold color-navbar mx-4"
                             href="<?php echo SERVIDOR ?>">INICIO</a>
                     </li>

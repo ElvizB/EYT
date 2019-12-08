@@ -1,3 +1,16 @@
+.line-semi {
+  border-right: 1px solid #bd0500;
+}
+
+.reset-semi {
+  padding-right: 0px;
+}
+
+.reset-btn-semi {
+  background: transparent;
+  border: none;
+}
+
 .list-menu {
   padding: 0;
   position: relative;
@@ -19,17 +32,4 @@
 .activar {
   background: red;
   color: white;
-}
-
-.line-semi {
-  border-right: 1px solid #bd0500;
-}
-
-.reset-semi {
-  padding-right: 0px;
-}
-
-.reset-btn-semi {
-  background: transparent;
-  border: none;
 }
