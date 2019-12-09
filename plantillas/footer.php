@@ -130,7 +130,7 @@
 </footer>
 
 <div class="rgba-white-slight text-center py-2 color-footer font-AvenirMe">
-    <h6 class="small">
+    <h6 class="small mb-0">
         © EVOLUTION AND TRANSFORMATION | TODOS LOS DERECHO
         RESERVADOS
     </h6>

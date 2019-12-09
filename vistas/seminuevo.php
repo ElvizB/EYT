@@ -31,6 +31,29 @@ $titulo = 'Rmgol';
     </div>
     <!--/.Slides-->
 </div>
+<div class="bg-semi">
+    <ul class="nav  nav-justified container list-menu">
+        <li class="nav-item button-e sobre2">
+            <a class="nav-link text-white" href="#!" data-filter=".camionetas">Camionetas</a>
+        </li>
+        <li class="nav-item button-e sobre2">
+            <a class="nav-link text-white" href="#!" data-filter=".comerciales">Comerciales</a>
+        </li>
+        <li class="nav-item button-e sobre2">
+            <a class="nav-link text-white" href="#!" data-filter=".deport">Deportivos</a>
+        </li>
+        <li class="nav-item button-e sobre2">
+            <a class="nav-link text-white" href="#!" data-filter=".familiares">Familiares</a>
+        </li>
+        <li class="nav-item button-e sobre2">
+            <a class="nav-link text-white" href="#!" data-filter=".hibridos">Hibridos</a>
+        </li>
+        <li class="nav-item button-e sobre2 activar">
+            <a class="nav-link text-white" href="#!" data-filter="all">Todos</a>
+        </li>
+
+    </ul>
+</div>
 
 <main class="pt-0">
     <div class="main-wrapper">
@@ -38,92 +61,564 @@ $titulo = 'Rmgol';
             <div class="row">
                 <div class="col-md-12">
                     <section class="p-4 p-md-5">
-                        <div class="row">
 
-                            <ul class="list-menu">
+                        <div class="mymixcont">
 
-                                <li class="button-e" data-filter="Camionetas">Camionetas</li>
-                                <li class="button-e" data-filter="Comerciales">Comerciales</li>
-                                <li class="button-e" data-filter="Deportivos">Deportivos</li>
-                                <li class="button-e" data-filter="Familiares">Familiares</li>
-                                <li class="button-e" data-filter="Hibridos">Hibridos</li>
-                                <li class="button-e activar" data-filter="all">Todos</li>
-                            </ul>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12 mix deport mb-5">
+                                    <div class="card rounded-2 expand" style="margin-top: 0%;">
+                                        <div class="card-body rounded-2">
+                                            <div class="text-center">
+                                                <button type="button" class="reset-btn-semi" data-toggle="modal"
+                                                    data-target="#modalYT">
+                                                    <img class="img-fluid" src="<?php echo RUTA_IMG?>seminuevo/auto.png"
+                                                        alt="Sample image">
+                                                </button>
+                                                <h6 class="font-AvenirProLTB text-center pt-3">
+                                                    HYUDAI DER 2010 SSS 4.5
+                                                </h6>
+                                            </div>
 
-                            <div class="col-lg-4 col-md-6 col-sm-12 filter Camionetas mb-5">
-                                <div class="card rounded-2 expand" style="margin-top: 0%;">
-                                    <div class="card-body rounded-2">
-                                        <div class="text-center">
-                                            <button type="button" class="reset-btn-semi" data-toggle="modal"
-                                                data-target="#modalYT">
-                                                <img class="img-fluid" src="<?php echo RUTA_IMG?>seminuevo/auto.png"
-                                                    alt="Sample image">
-                                            </button>
-                                            <!--Modal: modalYT-->
-                                            <div class="modal fade" id="modalYT" tabindex="-1" role="dialog"
-                                                aria-labelledby="myModalLabel" aria-hidden="true">
-                                                <div class="modal-dialog modal-lg" role="document">
-
-                                                    <!--Content-->
-                                                    <div class="modal-content">
-
-                                                        <!--Body-->
-                                                        <div class="modal-body mb-0 p-0">
-
-                                                            <div
-                                                                class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-
-                                                            </div>
-
-                                                        </div>
-
-                                                        <div class="modal-footer">
-                                                            <button type="button"
-                                                                class="btn btn-contact btn-md btn-block "
-                                                                data-dismiss="modal">Cerrar</button>
-                                                        </div>
-                                                    </div>
-                                                    <!--/.Content-->
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 reset-semi line-semi">
+                                                    <ul class="fa-ul">
+                                                        <li
+                                                            class="flex-end flex-md-center small pt-2 pl-0 pl-md-0 pl-lg-2">
+                                                            <span class="fa-li">
+                                                                <img class="img-fluid display-n"
+                                                                    src="<?php echo RUTA_IMG?>seminuevo/rueda.png"
+                                                                    alt="Sample image">
+                                                            </span>
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <ul class="fa-ul" style="margin-left: 0em;">
+                                                        <li class="small pt-2">
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
-                                            <!--Modal: modalYT-->
-                                            <h6 class="font-AvenirProLTB text-center pt-3">
-                                                HYUDAI DER 2010 SSS 4.5
-                                            </h6>
-                                        </div>
 
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6 col-sm-6 reset-semi line-semi">
-                                                <ul class="fa-ul">
-                                                    <li class="flex-end flex-md-center small pt-2 pl-0 pl-md-0 pl-lg-2">
-                                                        <span class="fa-li">
-                                                            <img class="img-fluid display-n"
-                                                                src="<?php echo RUTA_IMG?>seminuevo/rueda.png"
-                                                                alt="Sample image">
-                                                        </span>
-                                                        Lorem Ipsum Ipsumar
-                                                    </li>
-                                                </ul>
+                                            <div class="text-center py-4">
+                                                <a href="<?php echo RUTA_CONTACTO ?>"
+                                                    class="btn boton-v3 btn-md waves-effect waves-light px-5 font-AvenirProLTB">MÁS
+                                                    INFORMACIÓN</a>
                                             </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <ul class="fa-ul" style="margin-left: 0em;">
-                                                    <li class="small pt-2">
-                                                        Lorem Ipsum Ipsumar
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-
-                                        <div class="text-center py-4">
-                                            <a href="<?php echo RUTA_CONTACTO ?>"
-                                                class="btn boton-v3 btn-md waves-effect waves-light px-5 font-AvenirProLTB">MÁS
-                                                INFORMACIÓN</a>
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mix familiares mb-5">
+                                    <div class="card rounded-2 expand" style="margin-top: 0%;">
+                                        <div class="card-body rounded-2">
+                                            <div class="text-center">
+                                                <button type="button" class="reset-btn-semi" data-toggle="modal"
+                                                    data-target="#modalYT">
+                                                    <img class="img-fluid" src="<?php echo RUTA_IMG?>seminuevo/auto.png"
+                                                        alt="Sample image">
+                                                </button>
+                                                <h6 class="font-AvenirProLTB text-center pt-3">
+                                                    HYUDAI DER 2010 SSS 4.5
+                                                </h6>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 reset-semi line-semi">
+                                                    <ul class="fa-ul">
+                                                        <li
+                                                            class="flex-end flex-md-center small pt-2 pl-0 pl-md-0 pl-lg-2">
+                                                            <span class="fa-li">
+                                                                <img class="img-fluid display-n"
+                                                                    src="<?php echo RUTA_IMG?>seminuevo/rueda.png"
+                                                                    alt="Sample image">
+                                                            </span>
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <ul class="fa-ul" style="margin-left: 0em;">
+                                                        <li class="small pt-2">
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center py-4">
+                                                <a href="<?php echo RUTA_CONTACTO ?>"
+                                                    class="btn boton-v3 btn-md waves-effect waves-light px-5 font-AvenirProLTB">MÁS
+                                                    INFORMACIÓN</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mix deport mb-5">
+                                    <div class="card rounded-2 expand" style="margin-top: 0%;">
+                                        <div class="card-body rounded-2">
+                                            <div class="text-center">
+                                                <button type="button" class="reset-btn-semi" data-toggle="modal"
+                                                    data-target="#modalYT">
+                                                    <img class="img-fluid" src="<?php echo RUTA_IMG?>seminuevo/auto.png"
+                                                        alt="Sample image">
+                                                </button>
+                                                <h6 class="font-AvenirProLTB text-center pt-3">
+                                                    HYUDAI DER 2010 SSS 4.5
+                                                </h6>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 reset-semi line-semi">
+                                                    <ul class="fa-ul">
+                                                        <li
+                                                            class="flex-end flex-md-center small pt-2 pl-0 pl-md-0 pl-lg-2">
+                                                            <span class="fa-li">
+                                                                <img class="img-fluid display-n"
+                                                                    src="<?php echo RUTA_IMG?>seminuevo/rueda.png"
+                                                                    alt="Sample image">
+                                                            </span>
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <ul class="fa-ul" style="margin-left: 0em;">
+                                                        <li class="small pt-2">
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center py-4">
+                                                <a href="<?php echo RUTA_CONTACTO ?>"
+                                                    class="btn boton-v3 btn-md waves-effect waves-light px-5 font-AvenirProLTB">MÁS
+                                                    INFORMACIÓN</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mix familiares mb-5">
+                                    <div class="card rounded-2 expand" style="margin-top: 0%;">
+                                        <div class="card-body rounded-2">
+                                            <div class="text-center">
+                                                <button type="button" class="reset-btn-semi" data-toggle="modal"
+                                                    data-target="#modalYT">
+                                                    <img class="img-fluid" src="<?php echo RUTA_IMG?>seminuevo/auto.png"
+                                                        alt="Sample image">
+                                                </button>
+                                                <h6 class="font-AvenirProLTB text-center pt-3">
+                                                    HYUDAI DER 2010 SSS 4.5
+                                                </h6>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 reset-semi line-semi">
+                                                    <ul class="fa-ul">
+                                                        <li
+                                                            class="flex-end flex-md-center small pt-2 pl-0 pl-md-0 pl-lg-2">
+                                                            <span class="fa-li">
+                                                                <img class="img-fluid display-n"
+                                                                    src="<?php echo RUTA_IMG?>seminuevo/rueda.png"
+                                                                    alt="Sample image">
+                                                            </span>
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <ul class="fa-ul" style="margin-left: 0em;">
+                                                        <li class="small pt-2">
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center py-4">
+                                                <a href="<?php echo RUTA_CONTACTO ?>"
+                                                    class="btn boton-v3 btn-md waves-effect waves-light px-5 font-AvenirProLTB">MÁS
+                                                    INFORMACIÓN</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mix deport mb-5">
+                                    <div class="card rounded-2 expand" style="margin-top: 0%;">
+                                        <div class="card-body rounded-2">
+                                            <div class="text-center">
+                                                <button type="button" class="reset-btn-semi" data-toggle="modal"
+                                                    data-target="#modalYT">
+                                                    <img class="img-fluid" src="<?php echo RUTA_IMG?>seminuevo/auto.png"
+                                                        alt="Sample image">
+                                                </button>
+                                                <h6 class="font-AvenirProLTB text-center pt-3">
+                                                    HYUDAI DER 2010 SSS 4.5
+                                                </h6>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 reset-semi line-semi">
+                                                    <ul class="fa-ul">
+                                                        <li
+                                                            class="flex-end flex-md-center small pt-2 pl-0 pl-md-0 pl-lg-2">
+                                                            <span class="fa-li">
+                                                                <img class="img-fluid display-n"
+                                                                    src="<?php echo RUTA_IMG?>seminuevo/rueda.png"
+                                                                    alt="Sample image">
+                                                            </span>
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <ul class="fa-ul" style="margin-left: 0em;">
+                                                        <li class="small pt-2">
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center py-4">
+                                                <a href="<?php echo RUTA_CONTACTO ?>"
+                                                    class="btn boton-v3 btn-md waves-effect waves-light px-5 font-AvenirProLTB">MÁS
+                                                    INFORMACIÓN</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mix hibridos mb-5">
+                                    <div class="card rounded-2 expand" style="margin-top: 0%;">
+                                        <div class="card-body rounded-2">
+                                            <div class="text-center">
+                                                <button type="button" class="reset-btn-semi" data-toggle="modal"
+                                                    data-target="#modalYT">
+                                                    <img class="img-fluid" src="<?php echo RUTA_IMG?>seminuevo/auto.png"
+                                                        alt="Sample image">
+                                                </button>
+                                                <h6 class="font-AvenirProLTB text-center pt-3">
+                                                    HYUDAI DER 2010 SSS 4.5
+                                                </h6>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 reset-semi line-semi">
+                                                    <ul class="fa-ul">
+                                                        <li
+                                                            class="flex-end flex-md-center small pt-2 pl-0 pl-md-0 pl-lg-2">
+                                                            <span class="fa-li">
+                                                                <img class="img-fluid display-n"
+                                                                    src="<?php echo RUTA_IMG?>seminuevo/rueda.png"
+                                                                    alt="Sample image">
+                                                            </span>
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <ul class="fa-ul" style="margin-left: 0em;">
+                                                        <li class="small pt-2">
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center py-4">
+                                                <a href="<?php echo RUTA_CONTACTO ?>"
+                                                    class="btn boton-v3 btn-md waves-effect waves-light px-5 font-AvenirProLTB">MÁS
+                                                    INFORMACIÓN</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mix deport mb-5">
+                                    <div class="card rounded-2 expand" style="margin-top: 0%;">
+                                        <div class="card-body rounded-2">
+                                            <div class="text-center">
+                                                <button type="button" class="reset-btn-semi" data-toggle="modal"
+                                                    data-target="#modalYT">
+                                                    <img class="img-fluid" src="<?php echo RUTA_IMG?>seminuevo/auto.png"
+                                                        alt="Sample image">
+                                                </button>
+                                                <h6 class="font-AvenirProLTB text-center pt-3">
+                                                    HYUDAI DER 2010 SSS 4.5
+                                                </h6>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 reset-semi line-semi">
+                                                    <ul class="fa-ul">
+                                                        <li
+                                                            class="flex-end flex-md-center small pt-2 pl-0 pl-md-0 pl-lg-2">
+                                                            <span class="fa-li">
+                                                                <img class="img-fluid display-n"
+                                                                    src="<?php echo RUTA_IMG?>seminuevo/rueda.png"
+                                                                    alt="Sample image">
+                                                            </span>
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <ul class="fa-ul" style="margin-left: 0em;">
+                                                        <li class="small pt-2">
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center py-4">
+                                                <a href="<?php echo RUTA_CONTACTO ?>"
+                                                    class="btn boton-v3 btn-md waves-effect waves-light px-5 font-AvenirProLTB">MÁS
+                                                    INFORMACIÓN</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mix deport mb-5">
+                                    <div class="card rounded-2 expand" style="margin-top: 0%;">
+                                        <div class="card-body rounded-2">
+                                            <div class="text-center">
+                                                <button type="button" class="reset-btn-semi" data-toggle="modal"
+                                                    data-target="#modalYT">
+                                                    <img class="img-fluid" src="<?php echo RUTA_IMG?>seminuevo/auto.png"
+                                                        alt="Sample image">
+                                                </button>
+                                                <h6 class="font-AvenirProLTB text-center pt-3">
+                                                    HYUDAI DER 2010 SSS 4.5
+                                                </h6>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 reset-semi line-semi">
+                                                    <ul class="fa-ul">
+                                                        <li
+                                                            class="flex-end flex-md-center small pt-2 pl-0 pl-md-0 pl-lg-2">
+                                                            <span class="fa-li">
+                                                                <img class="img-fluid display-n"
+                                                                    src="<?php echo RUTA_IMG?>seminuevo/rueda.png"
+                                                                    alt="Sample image">
+                                                            </span>
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <ul class="fa-ul" style="margin-left: 0em;">
+                                                        <li class="small pt-2">
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center py-4">
+                                                <a href="<?php echo RUTA_CONTACTO ?>"
+                                                    class="btn boton-v3 btn-md waves-effect waves-light px-5 font-AvenirProLTB">MÁS
+                                                    INFORMACIÓN</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mix camionetas mb-5">
+                                    <div class="card rounded-2 expand" style="margin-top: 0%;">
+                                        <div class="card-body rounded-2">
+                                            <div class="text-center">
+                                                <button type="button" class="reset-btn-semi" data-toggle="modal"
+                                                    data-target="#modalYT">
+                                                    <img class="img-fluid" src="<?php echo RUTA_IMG?>seminuevo/auto.png"
+                                                        alt="Sample image">
+                                                </button>
+                                                <h6 class="font-AvenirProLTB text-center pt-3">
+                                                    HYUDAI DER 2010 SSS 4.5
+                                                </h6>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 reset-semi line-semi">
+                                                    <ul class="fa-ul">
+                                                        <li
+                                                            class="flex-end flex-md-center small pt-2 pl-0 pl-md-0 pl-lg-2">
+                                                            <span class="fa-li">
+                                                                <img class="img-fluid display-n"
+                                                                    src="<?php echo RUTA_IMG?>seminuevo/rueda.png"
+                                                                    alt="Sample image">
+                                                            </span>
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <ul class="fa-ul" style="margin-left: 0em;">
+                                                        <li class="small pt-2">
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center py-4">
+                                                <a href="<?php echo RUTA_CONTACTO ?>"
+                                                    class="btn boton-v3 btn-md waves-effect waves-light px-5 font-AvenirProLTB">MÁS
+                                                    INFORMACIÓN</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mix comerciales mb-5">
+                                    <div class="card rounded-2 expand" style="margin-top: 0%;">
+                                        <div class="card-body rounded-2">
+                                            <div class="text-center">
+                                                <button type="button" class="reset-btn-semi" data-toggle="modal"
+                                                    data-target="#modalYT">
+                                                    <img class="img-fluid" src="<?php echo RUTA_IMG?>seminuevo/auto.png"
+                                                        alt="Sample image">
+                                                </button>
+                                                <h6 class="font-AvenirProLTB text-center pt-3">
+                                                    HYUDAI DER 2010 SSS 4.5
+                                                </h6>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 reset-semi line-semi">
+                                                    <ul class="fa-ul">
+                                                        <li
+                                                            class="flex-end flex-md-center small pt-2 pl-0 pl-md-0 pl-lg-2">
+                                                            <span class="fa-li">
+                                                                <img class="img-fluid display-n"
+                                                                    src="<?php echo RUTA_IMG?>seminuevo/rueda.png"
+                                                                    alt="Sample image">
+                                                            </span>
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <ul class="fa-ul" style="margin-left: 0em;">
+                                                        <li class="small pt-2">
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center py-4">
+                                                <a href="<?php echo RUTA_CONTACTO ?>"
+                                                    class="btn boton-v3 btn-md waves-effect waves-light px-5 font-AvenirProLTB">MÁS
+                                                    INFORMACIÓN</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mix camionetas mb-5">
+                                    <div class="card rounded-2 expand" style="margin-top: 0%;">
+                                        <div class="card-body rounded-2">
+                                            <div class="text-center">
+                                                <button type="button" class="reset-btn-semi" data-toggle="modal"
+                                                    data-target="#modalYT">
+                                                    <img class="img-fluid" src="<?php echo RUTA_IMG?>seminuevo/auto.png"
+                                                        alt="Sample image">
+                                                </button>
+                                                <h6 class="font-AvenirProLTB text-center pt-3">
+                                                    HYUDAI DER 2010 SSS 4.5
+                                                </h6>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 reset-semi line-semi">
+                                                    <ul class="fa-ul">
+                                                        <li
+                                                            class="flex-end flex-md-center small pt-2 pl-0 pl-md-0 pl-lg-2">
+                                                            <span class="fa-li">
+                                                                <img class="img-fluid display-n"
+                                                                    src="<?php echo RUTA_IMG?>seminuevo/rueda.png"
+                                                                    alt="Sample image">
+                                                            </span>
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <ul class="fa-ul" style="margin-left: 0em;">
+                                                        <li class="small pt-2">
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center py-4">
+                                                <a href="<?php echo RUTA_CONTACTO ?>"
+                                                    class="btn boton-v3 btn-md waves-effect waves-light px-5 font-AvenirProLTB">MÁS
+                                                    INFORMACIÓN</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mix comerciales mb-5">
+                                    <div class="card rounded-2 expand" style="margin-top: 0%;">
+                                        <div class="card-body rounded-2">
+                                            <div class="text-center">
+                                                <button type="button" class="reset-btn-semi" data-toggle="modal"
+                                                    data-target="#modalYT">
+                                                    <img class="img-fluid" src="<?php echo RUTA_IMG?>seminuevo/auto.png"
+                                                        alt="Sample image">
+                                                </button>
+                                                <h6 class="font-AvenirProLTB text-center pt-3">
+                                                    HYUDAI DER 2010 SSS 4.5
+                                                </h6>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-6 reset-semi line-semi">
+                                                    <ul class="fa-ul">
+                                                        <li
+                                                            class="flex-end flex-md-center small pt-2 pl-0 pl-md-0 pl-lg-2">
+                                                            <span class="fa-li">
+                                                                <img class="img-fluid display-n"
+                                                                    src="<?php echo RUTA_IMG?>seminuevo/rueda.png"
+                                                                    alt="Sample image">
+                                                            </span>
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                                    <ul class="fa-ul" style="margin-left: 0em;">
+                                                        <li class="small pt-2">
+                                                            Lorem Ipsum Ipsumar
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center py-4">
+                                                <a href="<?php echo RUTA_CONTACTO ?>"
+                                                    class="btn boton-v3 btn-md waves-effect waves-light px-5 font-AvenirProLTB">MÁS
+                                                    INFORMACIÓN</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-
 
                     </section>
                 </div>

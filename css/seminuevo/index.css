@@ -11,25 +11,15 @@
   border: none;
 }
 
-.list-menu {
-  padding: 0;
-  position: relative;
+.mymixcont {
   width: 100%;
-  margin: 10px 10px 30px;
 }
 
-.list-menu li {
-  list-style: none;
-  float: left;
-  padding: 10px 20px;
-  color: black;
-  border: 1px solid red;
-  margin-right: 15px;
-  text-transform: uppercase;
-}
-
-.list-menu li:hover,
+sobre2 a:hover,
 .activar {
-  background: red;
+  background: black !important;
   color: white;
+}
+.bg-semi {
+  background: #b80500;
 }
