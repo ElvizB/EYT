@@ -20,11 +20,11 @@
                             <span class="h5-responsive fondo-letras font-AvenirProLTB">CONTACTO</span>
                         </div>
                         <div class="font-AvenirMe text-left text-md-left">
-                            <p class="pt-4 mb-0 font-weight-bold">DIRECCIÓN </p>
+                            <p class="pt-4 mb-0 font-AvenirProLTB">DIRECCIÓN </p>
                             <p class="">PANAMERICANA NORTE KM 26.5 LOTE 49, PUENTE PIEDRA-LIMA</p>
-                            <p class="mb-0 font-weight-bold">TELÉFONOS </p>
+                            <p class="mb-0 font-AvenirProLTB">TELÉFONOS </p>
                             <p>(+51)942356779 <br /> (+51)985768555</p>
-                            <p class="mb-0 font-weight-bold">EMAIL</p>
+                            <p class="mb-0 font-AvenirProLTB">EMAIL</p>
                             <p>VENTAS@EYT.PE</p>
                         </div>
                     </div>
@@ -48,7 +48,8 @@
                                 <span class="fa-li ">
                                     <img src="<?php echo RUTA_IMG?>/inicio/flecha.png" class="img-fluid" />
                                 </span>
-                                VENTA DE VEHÍCULOS MULTIMARCAS USADAS
+                                <a href="<?php echo RUTA_SERVICIOS ?>"> VENTA DE VEHÍCULOS MULTIMARCAS USADAS</a>
+
                             </li>
                         </ul>
                     </div>
@@ -59,7 +60,7 @@
                                 <span class="fa-li">
                                     <img src="<?php echo RUTA_IMG?>/inicio/flecha.png" class="img-fluid" />
                                 </span>
-                                TRANSFORMACIÓN Y TUNING DE TU HILUX
+                                <a href="<?php echo RUTA_SERVICIOS ?>">TRANSFORMACIÓN Y TUNING DE TU HILUX</a>
                             </li>
                         </ul>
                     </div>
@@ -83,13 +84,13 @@
                                 <span class="fa-li ">
                                     <img src="<?php echo RUTA_IMG?>/inicio/movil/cuadrado.png" class="img-fluid" />
                                 </span>
-                                VENTA DE VEHÍCULOS MULTIMARCAS USADAS
+                                <a href="<?php echo RUTA_SERVICIOS ?>">VENTA DE VEHÍCULOS MULTIMARCAS USADAS</a>
                             </li>
                             <li class="mb-2 font-AvenirMe">
                                 <span class="fa-li">
                                     <img src="<?php echo RUTA_IMG?>/inicio/movil/cuadrado.png" class="img-fluid" />
                                 </span>
-                                TRANSFORMACIÓN Y TUNING DE TU HILUX
+                                <a href="<?php echo RUTA_SERVICIOS ?>">TRANSFORMACIÓN Y TUNING DE TU HILUX</a>
                             </li>
 
                         </ul>

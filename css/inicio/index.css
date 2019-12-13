@@ -186,3 +186,14 @@ li.activo {
   clip-path: polygon(6% 0, 100% 0, 94% 100%, 0 100%);
   padding: 5px 23px 5px 20px;
 }
+.carousel-l {
+  position: absolute;
+  color: white;
+  z-index: 10;
+  left: 19%;
+  bottom: 36%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.font-title-h {
+}

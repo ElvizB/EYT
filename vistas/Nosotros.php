@@ -283,7 +283,7 @@ $titulo = 'Rmgol';
     <div class="main-wrapper">
         <div class="slider-m">
             <div class="waves-effect waves-light wow zoomIn py-4" data-wow-delay="0.5s">
-                <img class="d-block w-100 " src="<?php echo RUTA_IMG?>/nosotros/movil /valores.png" alt="First slide">
+                <img class="d-block w-100 " src="<?php echo RUTA_IMG?>/nosotros/movil/valores.png" alt="First slide">
             </div>
             <p class="text-justify mb-2 font-AvenirMe p-4 p-md-4 p-lg-0">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -301,7 +301,7 @@ $titulo = 'Rmgol';
                             <p class="text-center mb-2 font-AvenirMe">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             </p>
-                            <div class="waves-effect waves-light wow zoomIn py-4" data-wow-delay="0.5s">
+                            <div class="waves-effect waves-light py-4">
                                 <img class="d-block w-100 " src="<?php echo RUTA_IMG?>/nosotros/valores.png"
                                     alt="First slide">
                             </div>

@@ -54,7 +54,7 @@
 
                     <li class="sombra nav-item sobre">
                         <a class="nav-link  font-AvenirMe font-weight-bold  color-navbar mx-4"
-                            href="<?php echo RUTA_SEMINUEVOS ?>">SEMINUEVO</a>
+                            href="<?php echo RUTA_SEMINUEVOS ?>">SEMINUEVOS</a>
                     </li>
 
                     <li class="sombra nav-item sobre">

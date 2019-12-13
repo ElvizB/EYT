@@ -34,22 +34,22 @@ $titulo = 'Rmgol';
 <div class="bg-semi">
     <ul class="nav  nav-justified container list-menu">
         <li class="nav-item button-e sobre2">
-            <a class="nav-link text-white" href="#!" data-filter=".camionetas">Camionetas</a>
+            <a class="nav-link text-white"  data-filter=".camionetas">Camionetas</a>
         </li>
         <li class="nav-item button-e sobre2">
-            <a class="nav-link text-white" href="#!" data-filter=".comerciales">Comerciales</a>
+            <a class="nav-link text-white"  data-filter=".comerciales">Comerciales</a>
         </li>
         <li class="nav-item button-e sobre2">
-            <a class="nav-link text-white" href="#!" data-filter=".deport">Deportivos</a>
+            <a class="nav-link text-white"  data-filter=".deport">Deportivos</a>
         </li>
         <li class="nav-item button-e sobre2">
-            <a class="nav-link text-white" href="#!" data-filter=".familiares">Familiares</a>
+            <a class="nav-link text-white"  data-filter=".familiares">Familiares</a>
         </li>
         <li class="nav-item button-e sobre2">
-            <a class="nav-link text-white" href="#!" data-filter=".hibridos">Hibridos</a>
+            <a class="nav-link text-white"  data-filter=".hibridos">Hibridos</a>
         </li>
         <li class="nav-item button-e sobre2 activar">
-            <a class="nav-link text-white" href="#!" data-filter="all">Todos</a>
+            <a class="nav-link text-white"  data-filter="all">Todos</a>
         </li>
 
     </ul>

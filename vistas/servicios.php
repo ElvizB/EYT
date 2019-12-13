@@ -454,19 +454,8 @@ $titulo = 'Rmgol';
         </div>
         <div class="container pt-5 pb-2">
 
-            <div class="col-lg-5">
-                <div class="text-center text-md-center text-lg-left color-l">
-                    <span class="h1-responsive font-AvenirMe"><i>VENTA DE VEHICULOS</i>
-                    </span>
-                </div>
-            </div>
-            <div class="col-lg-7">
-                <div class="text-center text-md-center text-lg-right color-l">
-                    <span class="h1-responsive font-AvenirProLTB"><i>MULTIMARCAS USADAS</i>
-                    </span>
-                </div>
-            </div>
-            <hr class="mb-2 line-border">
+
+            
         </div>
         <div class="py-0 py-md-0 py-lg-5 px-0">
             <div class="pb-5">
@@ -523,7 +512,7 @@ $titulo = 'Rmgol';
                                                 <div class="col-lg-12">
                                                     <div
                                                         class="text-white text-white text-center text-md-center text-lg-left">
-                                                        <span class="h5-responsive font-AvenirMe"><i>TU COMPRA SEGURO,
+                                                        <span class="h5-responsive font-AvenirMe"><i>TÚ COMPRA SEGURO,
                                                                 CREAMOS ESTE</i>
                                                         </span>
                                                     </div>

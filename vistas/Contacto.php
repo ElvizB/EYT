@@ -71,24 +71,24 @@ $titulo = 'Rmgol';
                             <div class="form-row mb-3">
                                 <div class="col-lg-6 col-md-12 mb-3">
                                     <!-- Subject -->
-                                    <select class="browser-default custom-select ">
-                                        <option value="" disabled>SERVICIOS</option>
-                                        <option value="1" selected>TRANSFORMER UNO</option>
+                                    <select name="format" id="format" class="browser-default custom-select">
+                                        <option selected disabled>SERVICIOS</option>
+                                        <option value="1">TRANSFORMER UNO</option>
                                         <option value="2">TRANSFORMER DOS</option>
                                         <option value="3">OPCIONALES</option>
                                         <option value="4">AUXILIO Y DIANÓSTICO</option>
                                         <option value="5">OTROS</option>
                                     </select>
                                 </div>
+
                                 <div class="col-lg-6 col-md-12">
-                                    <!-- Subject -->
-                                    <select class="browser-default custom-select">
-                                        <option value="" disabled>SUBSERVICIOS</option>
-                                        <option value="1" selected>TRANSFORMER UNO</option>
+                                    <select name="format" id="format" class="browser-default custom-select">
+                                        <option selected disabled>SUBSERVICIOS</option>
+                                        <option value="1">TRANSFORMER UNO</option>
                                         <option value="2">4 NEUMÁTICOS</option>
                                         <option value="3">4 MANIJAS INTERNAS</option>
-                                        <option value="4">MANO DE ALEACIÓNS</option>
-                                        <option value="4">CONTROLES DE AUDIO</option>
+                                        <option value="4">MANO DE ALEACIÓN</option>
+                                        <option value="5">CONTROLES DE AUDIO</option>
                                     </select>
                                 </div>
                             </div>

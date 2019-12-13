@@ -13,7 +13,11 @@
             <div class="view">
                 <img class="d-block w-100" src="<?php echo RUTA_IMG?>inicio/ban_1.png" alt="First slide" />
             </div>
-            <div class="carousel-caption"></div>
+            <div class="carousel-l">
+                <h3 class="h1-responsive mb-0 font-AvenirProLTB">VIVE MUCHAS EXPERIENCIAS</h3>
+                <h1 class="display-3 mb-0 font-AvenirProLTB font-title-h">CON TU PRIMER AUTO</h1>
+                <p class="h2-responsive pl-2 font-AvenirMe">Consigue seminuevos a tu alcance</p>
+            </div>
         </div>
 
         <div class="carousel-item">
@@ -21,7 +25,11 @@
             <div class="view">
                 <img class="d-block w-100" src="<?php echo RUTA_IMG?>inicio/ban_2.png" alt="Second slide" />
             </div>
-            <div class="carousel-caption"></div>
+            <div class="carousel-l">
+                <h3 class="h1-responsive mb-0 font-AvenirProLTB">PORQUE CONFORMATE</h3>
+                <h1 class="display-3 mb-0 font-AvenirProLTB font-title-h">SI PUEDES SER MÁS</h1>
+                <p class="h2-responsive pl-2 font-AvenirMe">Consigue seminuevos a tu alcance</p>
+            </div>
         </div>
 
         <div class="carousel-item">
@@ -29,8 +37,13 @@
             <div class="view">
                 <img class="d-block w-100" src="<?php echo RUTA_IMG?>inicio/ban_3.png" alt="Third slide" />
             </div>
-            <div class="carousel-caption"></div>
+            <div class="carousel-l">
+                <h3 class="h1-responsive mb-0 font-AvenirProLTB">COTIZA AHORA UNA RENOVACIÓN</h3>
+                <h1 class="display-3 mb-0 font-AvenirProLTB font-title-h">A TU MEDIDA</h1>
+                <p class="h2-responsive pl-2 font-AvenirMe">Consigue seminuevos a tu alcance</p>
+            </div>
         </div>
+
     </div>
 
     <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">

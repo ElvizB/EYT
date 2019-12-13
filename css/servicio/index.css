@@ -203,7 +203,7 @@
   }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
   .historia {
     margin-top: 0rem !important;
   }
@@ -215,5 +215,20 @@
   }
   .margin-l {
     margin-right: -0.5rem !important;
+  }
+  .font-title-h {
+    font-size: 3rem;
+  }
+  .carousel-l {
+    bottom: 20%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .font-title-h {
+    font-size: 3rem;
+  }
+  .carousel-l {
+    bottom: 23%;
   }
 }
